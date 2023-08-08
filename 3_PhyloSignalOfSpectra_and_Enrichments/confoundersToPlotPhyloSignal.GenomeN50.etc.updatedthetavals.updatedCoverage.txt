@@ -1,0 +1,14 @@
+label	full_name_to_match_RAXML	ref_genome_GCA	link	scaffold_N50	contig_N50	avg_coverage_per_individual	Rspan_d	AFR_d	wattersons_theta	note
+brown_bear_ABC	Ursus_arctos	GCF_003584765.1_ASM358476v1_genomic	https://www.ncbi.nlm.nih.gov/assembly/GCF_003584765.1/	36708181	314844	32.68464853	15573.33333	1460	0.001374852	NA
+polar_bear_PB	Ursus_maritimus	GCA_000687225.1	https://www.ncbi.nlm.nih.gov/assembly/GCF_000687225.1/	15940661	46506	24.48441383	12799.33333	1825	0.000332783	NA
+wolves	Canis_lupus	canFam3	https://www.ncbi.nlm.nih.gov/assembly/GCF_000002285.3/	45876610	267478	23.19738395	8054.3333333	547.5	0.001957063	NA
+Mus_musculus_Mmd	Mus_musculus	mm10	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001635.20/	54517951	32813180	22.22127593	1685.5	139.5	0.003465583	NA
+Mus_spretus_Ms	Mus_spretus	mm10	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001635.20/	54517951	32813180	28.96462389	1685.5	139.5	0.003446162	setting lifepsan as same as Mmd
+humans_AFR	Homo_sapiens	GrCh38	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/	67794873	57879411	30.4962147	6570	8030	0.001192285	annabel ballpark estimate
+Pan_paniscus	Pan_paniscus	hg18	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.12/	38509590	38509590	26.00266787	16717	5073.5	0.0007	setting lifespan metrics as same as chimp
+Pan_troglodytes	Pan_troglodytes	hg18	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.12/	38509590	38509590	21.44431583	16717	5073.5	0.001657978	NA
+Pongo_abelii	Pongo_abelii	hg18	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.12/	38509590	38509590	29.46088604	18125.9	3591.6	0.001845982	setting as same as pygmaeus
+Pongo_pygmaeus	Pongo_pygmaeus	hg18	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.12/	38509590	38509590	26.45414987	18125.9	3591.6	0.001295121	NA
+Gorilla_gorilla	Gorilla_gorilla	hg18	https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.12/	38509590	38509590	18.20055355	16315.5	3650	0.001493561	NA
+vaquita	Phocoena_sinus	mPhoSin1	https://www.ncbi.nlm.nih.gov/assembly/GCF_008692025.1	115469292	20218762	62.54	4780.5	1642.5	8.39E-05	using phocoena phocoena as standin for lifespan metrics
+fin_whale_GOC	Balaenoptera_physalus	GCF_000493695.1_BalAcu1.0	https://www.ncbi.nlm.nih.gov/assembly/GCF_000493695.1/	12843668	22690	19.66524697	38643.82	3041.18	0.000913171	NA
