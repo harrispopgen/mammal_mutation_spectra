@@ -2,7 +2,7 @@ These scripts were used to run `est-sfs` (https://sourceforge.net/projects/est-u
 
 The final annotated vcfs and ancestral allele fastas output by this process are on the paper's Dryad repository inside each species' mutyper_pipeline_input_[species] directory.
 
-Each species (Mus musculus, Mus spretus, brown bear, polar bear, gray wolf, fin whale) has its own directory containing its est-sfs config file, and species-specific scripts. Note that vaquita, humans and non-human great apes were polarized prior to this study (see SI Methods).
+Each species (*Mus musculus* (house mouse), *Mus spretus* (Algerian mouse), brown bear, polar bear, gray wolf, fin whale) has its own directory containing its `est-sfs` config file, and species-specific scripts. Note that vaquita, humans and non-human great apes were polarized prior to this study (see SI Methods).
 
 Code was modified from scripts provided by Jacqueline Robinson.
 
