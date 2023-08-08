@@ -1,1 +1,9 @@
-script to run the mantel test to test the correlation between technical and biological confounders and phylogenetic distance 
+### Phylogenetic signal of technical and biological confounders
+
+This script was used to calculate whether numerous technical and biological variables (contig N50, scaffold N50, average sequencing coverage, Watterson's theta, age at first reproduction, reproductive lifespan; see SI Methods for details show any significant 'phylogenetic signal' (the correlation between pairwise differences in the 'trait' and the square root of phylogenetic distance between species).
+
+###### input files:
+* `confoundersToPlotPhyloSignal.GenomeN50.etc.updatedthetavals.updatedCoverage.txt`: table of technical and biological 'trait' values for each species (provided here)
+* `RAxML_bipartitions.result_FIN4_raw_rooted_wBoots_4098mam1out_OK.newick`:
+* 
+
