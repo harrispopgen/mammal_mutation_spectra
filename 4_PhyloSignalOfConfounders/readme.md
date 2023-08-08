@@ -1,6 +1,6 @@
 ### Phylogenetic signal of technical and biological confounders
 
-This script was used to calculate whether numerous technical and biological variables (contig N50, scaffold N50, average sequencing coverage, Watterson's theta, age at first reproduction, reproductive lifespan) show any significant 'phylogenetic signal' (the correlation between pairwise differences in the 'trait' and the square root of phylogenetic distance between species). See SI Methods for details
+This script was used to calculate whether numerous technical and biological variables (contig N50, scaffold N50, average sequencing coverage, Watterson's theta, age at first reproduction, reproductive lifespan) show any significant 'phylogenetic signal' (the correlation between pairwise differences in the 'trait' and the square root of phylogenetic distance between species). See SI Methods for details.
 
 ###### input files:
 * `confoundersToPlotPhyloSignal.GenomeN50.etc.updatedthetavals.updatedCoverage.txt`: table of technical and biological 'trait' values for each species (provided here)
