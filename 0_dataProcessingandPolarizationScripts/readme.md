@@ -1,3 +1,4 @@
+### Polarization
 These scripts were used to run `est-sfs` (https://sourceforge.net/projects/est-usfs/) to probabilistically assign ancestral allele states based on outgroup species sequences mapped to the same reference genome and allele frequency in the focal species. Extensive details about this procedure are in the paper's SI Methods. 
 
 The final annotated vcfs and ancestral allele fastas output by this process are on the paper's Dryad repository inside each species' mutyper_pipeline_input_[species] directory.
