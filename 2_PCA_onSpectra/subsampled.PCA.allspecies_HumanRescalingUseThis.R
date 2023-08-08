@@ -32,6 +32,7 @@ kmersize="7"
 # note: don't want to write anything to allspecies_summed_up_over_intervals_forTransfer because if I redownload things I don't want to get overwritten
 filesuffix=".summedup.mutyper.spectrum.SeeLogForFilters.maskALL.7mer.SUBSETPRIORTOMUTYPERSPECTRUM.PERINDIVIDUAL.RANDOMIZEDWITHINPOPULATION.txt" # I manually gzipped them
 
+#speciesList=c('humans', 'mice', 'bears', 'fin_whale', 'vaquita', 'Gorilla_gorilla', 'Pan_troglodytes', 'Pan_paniscus', 'Pongo_abelii', 'Pongo_pygmaeus','wolves')
 speciesList=c('humans', 'Mus_musculus','Mus_spretus' ,'polar_bear','brown_bear', 'fin_whale', 'vaquita', 'Gorilla_gorilla', 'Pan_troglodytes', 'Pan_paniscus', 'Pongo_abelii', 'Pongo_pygmaeus','wolves')
 
 popList=list(brown_bear=c("ABC","EUR"),polar_bear=c("PB"),fin_whale=c("ENP","GOC"),humans=c("AFR","EUR","SAS","EAS","AMR"),Mus_musculus=c("Mmc","Mmd","Mmm"),Mus_spretus=c("Ms"))
@@ -236,7 +237,9 @@ all7merTargets <- all7merTargets %>%
 
 ############## fill in missing mutation types (7mers) ########
 # complete so that missing mutation types are filled in 
-
+# okay this is kind of sinister, depending on how it was grouped above this may or may not work (but doesn't throw an error. Frustrating!)
+# so put in a check
+# keep an eye on this in other code. Don't think it's made things go wrong before but be alert.
 all7merSpectraOnly_filledin <- all7merSpectraOnly %>%
   ungroup() %>%
   complete(nesting(mutation_7mer,ancestral7mer,ancestral1mer,mutation_1mer),nesting(species,population,sample,label),fill=list(total_mutations=0))%>%
@@ -263,7 +266,7 @@ all1merSpectraOnly_filledin <- all1merSpectraOnly %>%
 # fill in should only be needed for 7mer and sometimes 5mer if sparse
 
 # so when I was merging before all species were combined there was a bug where missing mtuation types wouldn't get targets filled in which led to them being NA downstream 
-# okay now fill in missing mutation types : as 0s PRIOR TO MERGING WITH TARGETS
+# okay now fill in missing mutation types : as 0s PRIOR TO MERGING WITH TARGEST
 #  note that targets are the same within species (mouse1 and mouse2 have same targets; bear 1 and bear2 have targets)
 
 
@@ -382,11 +385,20 @@ all7merSpectra <- merge(all7merSpectra,niceLabels,by="label")
 
 ################### processing function ###############
 # add multinomial variables to this function.
+# note: nothing says 'projected' because these are per individual and not sample size projected
 
 
 processSpectra <- function(rescaled_and_downsampled_spectradf,epsilon){ 
-  # get mutation rates and fraction of segregating sites: also adding a column in where I add +epsilon (1) to every count to deal with 0 entries 
-   
+  # get mutation rates and fraction of segregating sites: also adding a column in where I add +epsilon (1) to every count to deal with 0 entries ; taking out adding epsilon to target counts since I fixed the empty target bug
+  # no longer is doing downsampling (doing it beforehand)
+  # and 
+  # don't need to get frac seg sites here, doing down below # but am renaming so that it doesn't get accidentally used 
+  # not keeping original values because going to downsample based on human counts
+  # don't take away original columns bc want to be able to compare original stuff
+  # maybe rename them though
+  # now am dividing by human target counts to get rates (same for all species)
+  # figure out kmer size to act as a label for writing out:
+  
   
   spectradf <- rescaled_and_downsampled_spectradf %>%
     mutate(total_mutations_plusEpsilon_RESCALED_BY_HUMAN_TARGETS=(total_mutations_RESCALED_BY_HUMAN_TARGETS+epsilon),
@@ -423,7 +435,7 @@ test=processSpectra(all1merSpectra,epsilon)
 
 ######################## PCA ##################
 # adding in desired pcs
-identifyingMetadataColumnNames=unique(c("label","species","population","sample",names(niceLabels))) # these will be kept when pivoting and then removed prior to pca; can add more metadata columns here ; keeping 1mer mutaiton label
+identifyingMetadataColumnNames=unique(c("label","species","population","sample",names(niceLabels))) # these will be kept when pivoting and then removed prior to pca; can add more metadata columns here ; keeping 1mer mutation label
 pca_function <- function(processeddf,kmersizelabel,variable,ilr_or_clr_or_none,plotloadings=T,plotdir,desiredPCs,identifyingMetadataColumnNames,colorList){
   outdir=paste0(plotdir,"pcaPlots/transform_",transform,"/",kmersizelabel,"/",variable,"/")
   dir.create(outdir,showWarnings = F,recursive = T)
@@ -610,6 +622,8 @@ listOfDFs = list(spectra_1mer=all1merSpectra,spectra_3mer=all3merSpectra,spectra
 # lapply applies combo_function_phylo to each of the above spectra ^^ 
 # if you set the names of a list, they get preserved in the output of lapply! cool!
 
+#listOfVars = c("mutation_rate_normalized_plusEpsilon","fractionOfSegregatingSites_plusEpsilon","mutation_rate_multinom_downsampled_normalized_plusEpsilon","fractionOfSegregatingSites_multinom_downsampled_plusEpsilon")
+
 ### NEW longer list of variables to test:
 listOfVars=c("mutation_rate_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS","mutation_rate_plusEpsilon_RESCALED_BY_HUMAN_TARGETS","fractionOfSegregatingSites_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS","fractionOfSegregatingSites_plusEpsilon_RESCALED_BY_HUMAN_TARGETS","total_mutations_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS","total_mutations_plusEpsilon_RESCALED_BY_HUMAN_TARGETS") # want to compare counts, fracs, and mutation rates
 
@@ -619,8 +633,8 @@ listOfTransforms=c("none", "clr") # skipping ilr for now
 #listOfVars=c("mutation_rate_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS")
 #listOfTransforms=c("clr")
 ### note that excluding in this list will exclude from pca but won't exclude from downsampling (!!)
-speciesToExclude=c("fin_whale_ENP","Mus_musculus_Mmc","Mus_musculus_Mmm","humans_EAS","humans_SAS","humans_AMR","humans_EUR","brown_bear_EUR") # excluding these to reduce sample sizes to make more comparable; excluding fin whale because of data filtering issues.
-
+speciesToExclude=c("fin_whale_ENP","Mus_musculus_Mmc","Mus_musculus_Mmm","humans_EAS","humans_SAS","humans_AMR","humans_EUR","brown_bear_EUR") # excluding these to reduce sample sizes to make more comparable
+#speciesToExclude=""
 # want to also downsample humans mice to two each 
 for(variable in listOfVars){
   #listOfPCAPlots = list()
@@ -646,6 +660,136 @@ for(variable in listOfVars){
  
   
 }
+
+
+####### REVISIONS: NEW STUFF adding PCAs colored by study/sequencer/read length #############
+# don't need color list or loadings
+pca_function_ColorByMetadata <- function(processeddf,kmersizelabel,variable,ilr_or_clr_or_none,plotdir,desiredPCs,identifyingMetadataColumnNames){
+  outdir=paste0(plotdir,"pcaPlots/transform_",transform,"/",kmersizelabel,"/",variable,"_COLORBYMETADATA/")
+  dir.create(outdir,showWarnings = F,recursive = T)
+  
+  # specify if you want loadings (don't want for 5mer or 7mer -- just turns into a cloud) 
+  # this will do pca and plot it from a processed --NOT PIVOTED-- df
+  # for pca need a different pivot -- need df to be 'wide' with mutation types along the top (columns)
+  # and species as the rows. 
+  # need to make it so that mutaiton types are columns and species are rows: 
+  df_WIDE <-  spread(data.frame(processeddf[,c(identifyingMetadataColumnNames,variable,"mutation_label")]),key = mutation_label,variable) # spread the variable you want.  # have to add "sample"
+  # DO NOT use mutation 1 mer at this pivot point -- separates things incorrectly
+  
+  ### apply transform if it is specified: how that I've pivoted teh df to have mutation types along columns
+  # I need to transform ROWS not colums (different from above)
+  if(ilr_or_clr_or_none=="clr"){
+    transformed_df <- data.frame(clr(select(df_WIDE,-all_of(identifyingMetadataColumnNames)))) # clr works ROWWISE which here is appropriate since species are ROWs. above the species were columns so instead I had to use sapply.
+    # put info back in: 
+    transformed_df <- bind_cols(transformed_df,df_WIDE[,identifyingMetadataColumnNames])
+    #transformed_df$species <- df_WIDE$species
+    #transformed_df$population <- df_WIDE$population
+    #transformed_df$label <- df_WIDE$label
+    #transformed_df$sample <- df_WIDE$sample
+    
+    
+  } else if(ilr_or_clr_or_none=="ilr") {
+    
+    transformed_df <- data.frame(ilr(select(df_WIDE,select=-all_of(identifyingMetadataColumnNames)))) # clr works ROWWISE which here is appropriate since species are ROWs. above the species were columns so instead I had to use sapply.
+    transformed_df <- bind_cols(transformed_df,df_WIDE[,identifyingMetadataColumnNames])
+    
+    #transformed_df$species <- df_WIDE$species
+    #transformed_df$population <- df_WIDE$population
+    #transformed_df$label <- df_WIDE$label
+    #transformed_df$sample <- df_WIDE$sample
+    
+    # note with ilr you won't get mutation types as columns any more 
+  } else if(ilr_or_clr_or_none=="none"){
+    transformed_df = df_WIDE # don't transform it. 
+  } else {
+    print("invalid transform choice")
+    break
+  }
+  
+  # sub in ">" for "." in mutation labels:
+  colnames(transformed_df) <- gsub("\\.",">",colnames(transformed_df))
+  
+  ############### carry out pca and plot ###############
+  
+  ####### sites that are missing in all individuals after downsampling (low freq) all end up with same freuency 1/total due to downsampling ; that means they have no variance and disrupt the pca. only really an issue for non-transformed pca with freq after downsampling. so could just skip those or could remove columns without variance
+  # getting variances
+  variances = apply(select(transformed_df, -all_of(identifyingMetadataColumnNames)),2,var)
+  columnsWith0Variance=names(variances[variances==0])
+  if(length(columnsWith0Variance)>0){
+    print(paste0("excluding mutation types with no variance (due to extremely low observations -- should only be relevant for non-transformed 7mers with frequency after multinomial downsampling: ",length(columnsWith0Variance)," mutation types:"))
+    print(columnsWith0Variance)
+    transformed_df <- select(transformed_df,-all_of(columnsWith0Variance))
+  }
+  
+  pca <- prcomp(select(transformed_df, -all_of(identifyingMetadataColumnNames)),scale=T,center=T) # Michael says to scale/center; similar with and without
+  
+  # save pca as rds object:
+  #saveRDS(pca, file = paste0(outdir,"pca.results.IfYouNeedToReplot.rds")) -- intead, I'm saving everything at the end. 
+  
+  # plot scree plot:
+  #pdf(paste0(outdir,"pca.screePlot1.pdf"))
+  #plot(pca)
+  #dev.off()
+  
+  # PC combos to plot:
+  PCCombos = combn(desiredPCs,2)
+  allPCAPlotsAcrossPCCombos <- list()
+  for(i in seq(1,dim(PCCombos)[2])) {
+    xpc = PCCombos[1,i]
+    ypc= PCCombos[2,i]
+    # plot without loadings as well: 
+    
+    ######### autoplots #######
+    pcaPlot_noLoadings_ColorByMetadata <- autoplot(pca,x=xpc,y=ypc,data=transformed_df,colour="Sequencing_Platform",shape="Read_Length",size=4,alpha=1,label.colour="black")+theme_classic()+ggtitle(paste0(kmersizelabel,"\n",flagOfAnalysis,"\n",variable,"\ntransform = ",ilr_or_clr_or_none))+
+    #geom_text_repel(aes(label=niceLabel),size=3)+
+      scale_color_brewer(palette = "Accent")+
+      scale_shape_manual(values=c(17,16))
+    # +scale_color_manual(values=colorListToUse) # have color codes as part of it now
+    #ggsave(paste0(outdir,"pca.",kmersizelabel,".",variable,".transform.",transform,".Plot.",xpc,".",ypc,".noLoadings.png"),pcaPlot_noLoadings,height=7,width=10)
+    ggsave(paste0(outdir,"pca.Plot.",xpc,".",ypc,".noLoadings.WithLabels.COLORBYMETADATA.pdf"),pcaPlot_noLoadings_ColorByMetadata,height=7,width=10)
+    
+
+  }
+  #return(pcaPlot_noLoadings_ColorByMetadata)
+  
+}
+
+#### combo function to process (downsampling already occurred) and run pca 
+combo_function_pca_COLORBYMETADATA <- function(spectrumdf,kmsersizelabel,variable,ilr_or_clr_or_none,plotdir,speciesToExclude,desiredPCs,identifyingMetadataColumnNames,epsilon) {
+  processSpectra(spectrumdf,epsilon) %>% # taking out epsilon (not using any more)
+    filter(!label %in% speciesToExclude) %>%
+    pca_function_ColorByMetadata(.,kmsersizelabel,variable,ilr_or_clr_or_none,plotdir,desiredPCs,identifyingMetadataColumnNames)
+  
+}
+
+############ add in sequencer/read len information for revisions ############
+extraMetadata <- read.table("/Users/annabelbeichman/Documents/UW/multispecies_spectra_comparisons/information/revisions.confounders.SequencingPlatform.ReadLength.20230710.PERINDIVIDUALFORPCA.txt",sep="\t",header=T) # just has metadata for the species/pops that get run thru pca (not extra pops)
+
+head(extraMetadata)
+head(all1merSpectra)
+# merge with extra metadata and exclude spp that aren't present
+all1merSpectra_PlusExtraMetadata <- merge(all1merSpectra[!all1merSpectra$label %in% speciesToExclude,],extraMetadata,by=c("species","sample","label"),all=T)
+
+all3merSpectra_PlusExtraMetadata <- merge(all3merSpectra[!all3merSpectra$label %in% speciesToExclude,],extraMetadata,by=c("species","sample","label"),all=T)
+
+all5merSpectra_PlusExtraMetadata <- merge(all5merSpectra[!all5merSpectra$label %in% speciesToExclude,],extraMetadata,by=c("species","sample","label"),all=T)
+
+all7merSpectra_PlusExtraMetadata <- merge(all7merSpectra[!all7merSpectra$label %in% speciesToExclude,],extraMetadata,by=c("species","sample","label"),all=T)
+
+
+# add the new metadata in to this vector:
+identifyingMetadataColumnNames_PlusExtraMetadata= c(identifyingMetadataColumnNames,c("Sequencing_Platform","Read_Length"))
+
+dir.create(paste0(outdir,"/colorByMetadata/"),showWarnings = F)
+
+# go through each one (just doing PCs 1,2 and one variable)
+combo_function_pca_COLORBYMETADATA(all1merSpectra_PlusExtraMetadata, kmsersizelabel="1mer_spectrum",variable ="mutation_rate_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS",ilr_or_clr_or_none="clr",plotdir=paste0(outdir,"/colorByMetadata/"),desiredPCs = c(1,2),identifyingMetadataColumnNames=identifyingMetadataColumnNames_PlusExtraMetadata,speciesToExclude = speciesToExclude,epsilon = epsilon)
+
+combo_function_pca_COLORBYMETADATA(all3merSpectra_PlusExtraMetadata, kmsersizelabel="3mer_spectrum",variable ="mutation_rate_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS",ilr_or_clr_or_none="clr",plotdir=paste0(outdir,"/colorByMetadata/"),desiredPCs = c(1,2),identifyingMetadataColumnNames=identifyingMetadataColumnNames_PlusExtraMetadata,speciesToExclude = speciesToExclude,epsilon = epsilon)
+
+combo_function_pca_COLORBYMETADATA(all5merSpectra_PlusExtraMetadata, kmsersizelabel="5mer_spectrum",variable ="mutation_rate_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS",ilr_or_clr_or_none="clr",plotdir=paste0(outdir,"/colorByMetadata/"),desiredPCs = c(1,2),identifyingMetadataColumnNames=identifyingMetadataColumnNames_PlusExtraMetadata,speciesToExclude = speciesToExclude,epsilon = epsilon)
+
+combo_function_pca_COLORBYMETADATA(all7merSpectra_PlusExtraMetadata, kmsersizelabel="7mer_spectrum",variable ="mutation_rate_multinom_downsampled_plusEpsilon_RESCALED_BY_HUMAN_TARGETS",ilr_or_clr_or_none="clr",plotdir=paste0(outdir,"/colorByMetadata/"),desiredPCs = c(1,2),identifyingMetadataColumnNames=identifyingMetadataColumnNames_PlusExtraMetadata,speciesToExclude = speciesToExclude,epsilon = epsilon)
 
 
 
