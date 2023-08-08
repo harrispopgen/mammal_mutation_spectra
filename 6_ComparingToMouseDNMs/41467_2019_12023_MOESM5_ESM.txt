@@ -1,0 +1,761 @@
+chr	pos	type	ref	alt	called in	n_individuals shared	shared	Mosaic	VEE/Zygotic	Lineage	RP_Phasing																
+5	61156234	SNP	C	T	"CBGP8_1a,CBGP8_1aT,CBGP8_1h,CBGP8_1hT,CBGP8_3d,CBGP8_7c"	4	1	0	NA	M1	NA																
+14	27674637	SNP	C	A	"CBGP8_1b,CBGP8_1bT,CBGP8_1f,CBGP8_1h,CBGP8_1hT,CBGP8_2b,CBGP8_4c,CBGP8_4h,CBGP8_6b,CBGP8_7c"	8	1	0	NA	M1	NA																
+14	122855398	SNP	G	A	"CBGP8_1b,CBGP8_1bT,CBGP8_1i,CBGP8_7d"	3	1	0	NA	M1	NA																
+12	64770094	SNP	T	G	"CBGP4_2k,CBGP4_3h,CBGP4_3k,CBGP4_3l,CBGP4_6a,CBGP4_6b,CBGP4_6f"	7	1	Maternal	NA	M10	NA																
+7	74355405	SNP	G	A	"CBGP4_2e,CBGP4_6b"	2	1	0	NA	M10	Maternal																
+14	86020266	SNP	C	T	"CBGP4_2i,CBGP4_3c,CBGP4_6c"	3	1	0	NA	M10	Maternal																
+18	5046254	SNP	T	G	"CBGP7_2b,CBGP7_3a,CBGP7_4a,CBGP7_4d,CBGP7_4f,CBGP7_6b,CBGP7_7b,CBGP7_7f,CBGP7_8b"	9	1	0	NA	M12	Maternal																
+3	65465517	SNP	G	A	"CBGP7_2c,CBGP7_2e,CBGP7_3a,CBGP7_3c,CBGP7_3g,CBGP7_3k,CBGP7_4a,CBGP7_4d,CBGP7_6a,CBGP7_6b,CBGP7_7b"	11	1	0	NA	M12	Maternal																
+9	82120658	SNP	C	T	"CBGP7_2b,CBGP7_2e,CBGP7_2g,CBGP7_3b,CBGP7_3j,CBGP7_4a,CBGP7_4d,CBGP7_4e,CBGP7_6g,CBGP7_6h,CBGP7_8b"	11	1	Maternal	NA	M12	NA																
+8	118892306	SNP	G	T	"CBGP7_2c,CBGP7_2d,CBGP7_2e,CBGP7_2g,CBGP7_3b,CBGP7_3c,CBGP7_3g,CBGP7_4d,CBGP7_6a,CBGP7_6h"	10	1	Maternal	NA	M12	NA																
+4	47685275	SNP	T	C	"CBGP7_2c,CBGP7_2d,CBGP7_2g,CBGP7_3a,CBGP7_3b,CBGP7_3g,CBGP7_3k,CBGP7_4a,CBGP7_4d,CBGP7_4e,CBGP7_4f,CBGP7_7b"	12	1	Maternal	NA	M12	NA																
+15	22224009	SNP	A	G	GPCB9_8d	1	0	Maternal	NA	M14	Maternal																
+18	88094408	SNP	C	A	GPCB9_8d	1	0	Maternal	NA	M14	NA																
+14	14762737	SNP	T	G	"GPCB9_7j,GPCB9_8f"	3	1	Maternal	NA	M15	Maternal																
+18	76051739	SNP	G	A	"GPCB9_7d,GPCB9_7f,GPCB9_7h,GPCB9_8g"	4	1	0	NA	M15	Maternal																
+14	78127137	SNP	A	T	"GPCB9_7j,GPCB9_8f"	3	1	Maternal	NA	M15	NA																
+12	53018942	SNP	G	T	"GPCB11_1f,GPCB11_2a,GPCB11_2b,GPCB11_2f,GPCB11_2h,GPCB11_5e,GPCB11_5f"	7	1	Maternal	NA	M17	Maternal																
+14	118439405	SNP	G	A	"GPCB11_1a,GPCB11_3g,GPCB11_3i,GPCB11_4a"	4	1	0	NA	M17	Maternal																
+3	83756086	SNP	C	T	"GPCB11_1a,GPCB11_1c,GPCB11_2g,GPCB11_4a"	4	1	Maternal	NA	M17	NA																
+15	22732768	SNP	C	T	"GPCB11_1e,GPCB11_1g,GPCB11_3f,GPCB11_3h"	4	1	Maternal	NA	M18	Maternal																
+8	110980784	SNP	G	A	"GPCB11_1g,GPCB11_2d,GPCB11_3f,GPCB11_3h"	4	1	Maternal	NA	M18	NA																
+1	102843444	SNP	C	T	"CBGP8_1g,CBGP8_1gT,CBGP8_1j,CBGP8_6c"	3	1	0	NA	M2	NA																
+2	167591589	SNP	C	A	"CBGP8_1c,CBGP8_1cT,CBGP8_1j,CBGP8_2a,CBGP8_2f,CBGP8_2i,CBGP8_3a,CBGP8_3b,CBGP8_4a,CBGP8_4j,CBGP8_5a,CBGP8_5c,CBGP8_6c,CBGP8_6e,CBGP8_8a,CBGP8_8aT,CBGP8_8c,CBGP8_8cT,CBGP8_8d,CBGP8_8dT,CBGP8_8f,CBGP8_8fT"	17	1	0	NA	M2	NA																
+5	51671935	SNP	G	A	"CBGP8_1g,CBGP8_1gT,CBGP8_1j,CBGP8_5c,CBGP8_8a,CBGP8_8aT"	4	1	0	NA	M2	Maternal																
+6	67501035	SNP	A	T	"CBGP8_1j,CBGP8_2f,CBGP8_2h,CBGP8_2i,CBGP8_3a,CBGP8_3b,CBGP8_3c,CBGP8_4a,CBGP8_5c,CBGP8_6c,CBGP8_6d,CBGP8_7b,CBGP8_8a,CBGP8_8aT,CBGP8_8b,CBGP8_8bT,CBGP8_8d,CBGP8_8dT,CBGP8_8e,CBGP8_8f,CBGP8_8fT"	17	1	0	NA	M2	NA																
+6	141396955	SNP	A	C	"CBGP8_1c,CBGP8_1cT,CBGP8_1g,CBGP8_1gT,CBGP8_2a,CBGP8_2h,CBGP8_3a,CBGP8_4e,CBGP8_4f,CBGP8_4i,CBGP8_4j,CBGP8_5a,CBGP8_5c,CBGP8_6c,CBGP8_6d,CBGP8_6e,CBGP8_6g,CBGP8_7b,CBGP8_8c,CBGP8_8cT,CBGP8_8d,CBGP8_8dT,CBGP8_8e"	19	1	0	NA	M2	NA																
+6	145471903	SNP	C	T	"CBGP8_4b,CBGP8_8b,CBGP8_8bT"	2	1	0	NA	M2	Maternal																
+17	64780608	SNP	T	G	"CBGP8_1c,CBGP8_1cT,CBGP8_1g,CBGP8_1gT,CBGP8_1j,CBGP8_2c,CBGP8_3a,CBGP8_3b,CBGP8_4a,CBGP8_4j,CBGP8_5a,CBGP8_5c,CBGP8_5d,CBGP8_8b,CBGP8_8bT,CBGP8_8d,CBGP8_8dT,CBGP8_8e,CBGP8_8f,CBGP8_8fT"	15	1	0	NA	M2	NA																
+4	25045830	SNP	C	T	"GPCB2_1b,GPCB2_1bT,GPCB2_9g"	2	1	0	NA	M4	NA																
+4	88898019	SNP	T	A	"GPCB2_1g,GPCB2_3f,GPCB2_4d,GPCB2_6c,GPCB2_7d,GPCB2_7g,GPCB2_8d,GPCB2_9e,GPCB2_9eT,GPCB2_9f,GPCB2_9fT,GPCB2_9g"	10	1	Maternal	NA	M4	Maternal																
+8	85994186	SNP	G	A	"GPCB2_1b,GPCB2_1bT,GPCB2_7d,GPCB2_9g"	3	1	0	NA	M4	Maternal																
+9	54981494	SNP	A	G	"GPCB2_3f,GPCB2_5e,GPCB2_8d,GPCB2_9d,GPCB2_9e,GPCB2_9eT"	5	1	0	NA	M4	Maternal																
+3	43061737	SNP	A	T	"GPCB2_4g,GPCB2_9c,GPCB2_9cT"	2	1	0	NA	M5	NA																
+8	102311869	SNP	G	T	"GPCB2_1e,GPCB2_1eT,GPCB2_4g"	2	1	0	NA	M5	NA																
+11	85895062	SNP	G	T	"GPCB2_3e,GPCB2_6e,GPCB2_7a,GPCB2_9c,GPCB2_9cT"	4	1	0	NA	M5	Maternal																
+12	62067033	SNP	G	A	"GPCB2_1e,GPCB2_1eT,GPCB2_3b,GPCB2_3e,GPCB2_4g,GPCB2_6e,GPCB2_7a,GPCB2_9c,GPCB2_9cT"	7	1	0	NA	M5	NA																
+14	16699250	SNP	G	A	"GPCB2_1e,GPCB2_1eT,GPCB2_6e,GPCB2_7a,GPCB2_9c,GPCB2_9cT"	4	1	0	NA	M5	Maternal																
+4	8928518	SNP	C	A	"GPCB2_1d,GPCB2_1dT,GPCB2_5d"	2	1	0	NA	M5/P6	NA																
+7	110296054	SNP	C	T	"GPCB2_1d,GPCB2_1dT,GPCB2_4c,GPCB2_5d"	3	1	0	NA	M5/P6	NA																
+5	57203170	SNP	C	T	"GPCB2_1i,GPCB2_8c,GPCB2_9a,GPCB2_9aT"	3	1	0	NA	M6	NA																
+8	119593506	SNP	C	T	"GPCB2_8c,GPCB2_9a,GPCB2_9aT,GPCB2_9h"	3	1	0	NA	M6	NA																
+12	76869631	SNP	G	T	"GPCB2_1i,GPCB2_9a,GPCB2_9aT,GPCB2_9h"	3	1	0	NA	M6	Maternal																
+13	26705451	SNP	C	A	"GPCB2_10b,GPCB2_1d,GPCB2_2b,GPCB2_3c,GPCB2_4b,GPCB2_5c,GPCB2_5d,GPCB2_9a"	9	1	0	NA	M6	NA																
+16	66086231	SNP	A	G	"GPCB2_8c,GPCB2_9a,GPCB2_9aT"	2	1	0	NA	M6	NA																
+19	23364025	SNP	G	A	"GPCB2_5c,GPCB2_9a,GPCB2_9aT,GPCB2_9h"	3	1	0	NA	M6	Maternal																
+14	21032427	SNP	T	A	"GPCB2_1h,GPCB2_2c,GPCB2_7c,GPCB2_9b,GPCB2_9bT"	4	1	0	NA	M7	NA																
+12	91073920	SNP	A	G	"CBGP4_3b,CBGP4_4b,CBGP4_6d"	3	1	0	NA	M9	Maternal																
+3	33383613	SNP	A	T	CBGP4_6d	1	0	Maternal	NA	M9	NA																
+16	66445648	SNP	G	A	"CBGP4_1a,CBGP4_3d,CBGP4_6b"	3	1	0	NA	NA	NA																
+4	80102981	SNP	T	C	"CBGP4_2e,CBGP4_3a,CBGP4_3h,CBGP4_4h,CBGP4_6e"	5	1	0	NA	NA	NA																
+11	85756273	SNP	A	G	"CBGP4_3a,CBGP4_3h,CBGP4_3i,CBGP4_3k,CBGP4_4d,CBGP4_6e,CBGP4_6f"	7	1	0	NA	NA	NA																
+19	34945954	SNP	T	C	"CBGP4_6a,CBGP4_6f"	2	1	0	NA	NA	NA																
+10	81261530	SNP	C	T	"CBGP7_2aT,CBGP7_2b,CBGP7_6b,CBGP7_8e"	4	1	0	NA	NA	NA																
+2	62490204	SNP	T	C	"CBGP7_2d, CBGP7_2aT"	0	1	0	NA	NA	NA																
+9	93604051	SNP	G	T	"CBGP7_2e,CBGP7_3f,CBGP7_4c,CBGP7_6a"	4	1	0	NA	NA	NA																
+6	17128280	SNP	G	A	"GPCB11_1a,GPCB11_1b,GPCB11_1h,GPCB11_4a"	4	1	0	NA	NA	NA																
+15	85453253	SNP	C	T	"GPCB11_1a,GPCB11_1c,GPCB11_1h,GPCB11_3e"	4	1	0	NA	NA	NA																
+1	91758640	SNP	C	T	"GPCB11_1d,GPCB11_2a,GPCB11_2b,GPCB11_2f,GPCB11_2h,GPCB11_5e,GPCB11_5g"	7	1	0	NA	NA	NA																
+16	21395221	SNP	C	T	"GPCB11_1d,GPCB11_5f"	2	1	0	NA	NA	NA																
+3	137066434	SNP	G	A	"GPCB11_1f,GPCB11_2g"	2	1	0	NA	NA	NA																
+9	42598301	SNP	C	A	"GPCB11_1g,GPCB11_3h"	3	1	0	NA	NA	NA																
+14	120670811	SNP	G	A	"GPCB9_7e,GPCB9_7g,GPCB9_8f"	4	1	0	NA	NA	NA																
+11	50507577	SNP	G	T	"GPCB9_7e,GPCB9_8f"	3	1	0	NA	NA	NA																
+11	43426392	SNP	A	C	"GPCB9_7f,GPCB9_7h,GPCB9_8g"	3	1	0	NA	NA	NA																
+16	18350545	SNP	C	T	"GPCB9_8a,GPCB9_8b"	2	1	0	NA	NA	NA																
+2	10556273	SNP	G	A	"CBGP8_1k,CBGP8_2a,CBGP8_2i,CBGP8_5a,CBGP8_5b,CBGP8_5c,CBGP8_7a,CBGP8_7c,CBGP8_8b,CBGP8_8bT,CBGP8_8d,CBGP8_8dT"	10	1	Paternal	NA	P1	Paternal																
+2	92472946	SNP	A	T	"CBGP8_1e,CBGP8_2a,CBGP8_2e,CBGP8_2i,CBGP8_5a,CBGP8_5c,CBGP8_5e,CBGP8_6g,CBGP8_7a,CBGP8_8f,CBGP8_8fT"	10	1	Paternal	NA	P1	NA																
+5	26156756	SNP	C	T	"CBGP8_2a,CBGP8_3c,CBGP8_8f,CBGP8_8fT"	3	1	0	NA	P1	Paternal																
+15	60633937	SNP	A	C	"CBGP8_1f,CBGP8_2a,CBGP8_4f,CBGP8_5e,CBGP8_7c,CBGP8_8d,CBGP8_8dT,CBGP8_8f,CBGP8_8fT"	7	1	Paternal	NA	P1	NA																
+16	73212143	SNP	G	A	"CBGP8_3c,CBGP8_8f,CBGP8_8fT"	2	1	0	NA	P1	Paternal																
+17	64534541	SNP	G	C	"CBGP8_2e,CBGP8_3c,CBGP8_4f,CBGP8_5a,CBGP8_5c,CBGP8_5e,CBGP8_7a,CBGP8_7c,CBGP8_8a,CBGP8_8aT,CBGP8_8b,CBGP8_8bT,CBGP8_8d,CBGP8_8dT,CBGP8_8f,CBGP8_8fT"	12	1	Paternal	NA	P1	NA																
+18	33569747	SNP	C	T	"CBGP8_3c,CBGP8_8f,CBGP8_8fT"	2	1	0	NA	P1	Paternal																
+6	34892512	SNP	G	A	"CBGP4_6c,CBGP4_6e"	2	1	Paternal	NA	P11	NA																
+12	96555454	SNP	T	G	"CBGP4_2b,CBGP4_6c"	2	1	Paternal	NA	P11	NA																
+14	97813384	SNP	G	A	CBGP4_6e	0	0	Paternal	NA	P11	NA																
+15	29094924	SNP	A	T	"CBGP4_4h,CBGP4_6e"	2	1	Paternal	NA	P11	NA																
+18	59431259	SNP	G	T	CBGP4_6c	1	0	Paternal	NA	P11	Paternal																
+18	63653717	SNP	C	T	CBGP4_6e	1	0	Paternal	NA	P11	Paternal																
+18	77628350	SNP	C	G	CBGP4_6e	1	0	Paternal	NA	P11	NA																
+2	41430847	SNP	C	T	"CBGP4_2g,CBGP4_2i,CBGP4_3b,CBGP4_3g,CBGP4_4b,CBGP4_6a"	6	1	Paternal	NA	P12	Paternal																
+15	12730537	SNP	C	A	"CBGP4_2a,CBGP4_2d,CBGP4_2f,CBGP4_2g,CBGP4_2l,CBGP4_3a,CBGP4_3i,CBGP4_3k,CBGP4_6d"	9	1	Paternal	NA	P12	Paternal																
+2	53187077	SNP	T	C	"CBGP4_1a,CBGP4_1b,CBGP4_2j,CBGP4_3j,CBGP4_4c,CBGP4_4e,CBGP4_6b"	7	1	Paternal	NA	P13	NA																
+3	43034668	SNP	T	G	"CBGP7_2d,CBGP7_7b"	2	1	Paternal	NA	P15	NA																
+5	25294034	SNP	C	T	"CBGP7_2d,CBGP7_3c,CBGP7_3h"	3	1	0	NA	P15	Paternal																
+17	48347925	SNP	T	G	"CBGP7_2d,CBGP7_3c,CBGP7_3h,CBGP7_7b"	4	1	Paternal	NA	P15	Paternal																
+18	82381825	SNP	A	G	"CBGP7_2d,CBGP7_3c,CBGP7_3h,CBGP7_7b"	4	1	Paternal	NA	P15	Paternal																
+1	109973541	SNP	A	T	"CBGP7_2c,CBGP7_3a,CBGP7_3d,CBGP7_3e,CBGP7_3g,CBGP7_3i,CBGP7_4b,CBGP7_7a,CBGP7_8d"	9	1	Paternal	NA	P16	Paternal																
+2	11064217	SNP	G	C	"CBGP7_2c,CBGP7_2g,CBGP7_3i,CBGP7_3k,CBGP7_4b,CBGP7_7a"	6	1	Paternal	NA	P16	Paternal																
+5	123117988	SNP	C	T	"CBGP7_2c,CBGP7_3a,CBGP7_3d,CBGP7_3e,CBGP7_4b,CBGP7_5a,CBGP7_8d"	7	1	Paternal	NA	P16	NA																
+10	92668510	SNP	C	T	"CBGP7_2c,CBGP7_2g,CBGP7_3a,CBGP7_3d,CBGP7_3e,CBGP7_5a"	6	1	0	NA	P16	Paternal																
+1	3219586	SNP	G	A	"CBGP7_2aT,CBGP7_2b,CBGP7_3b,CBGP7_3f,CBGP7_4d,CBGP7_4f,CBGP7_4g,CBGP7_6a,CBGP7_6f,CBGP7_6g,CBGP7_6h,CBGP7_7e,CBGP7_7f,CBGP7_8e"	14	1	Paternal	NA	P17	Paternal																
+2	18380082	SNP	A	G	"CBGP7_2b,CBGP7_2f,CBGP7_3f,CBGP7_3j,CBGP7_4c,CBGP7_4e,CBGP7_4f,CBGP7_6f,CBGP7_6h,CBGP7_7e,CBGP7_7f,CBGP7_8e"	12	1	Paternal	NA	P17	NA																
+3	70223928	SNP	G	A	CBGP7_2aT	0	1	Paternal	NA	P17	NA																
+17	8698893	SNP	G	A	"CBGP7_2aT,CBGP7_2b,CBGP7_2f,CBGP7_3b,CBGP7_3j,CBGP7_4c,CBGP7_4d,CBGP7_4e,CBGP7_6b,CBGP7_6f,CBGP7_6g,CBGP7_6h,CBGP7_8f"	13	1	Paternal	NA	P17	Paternal																
+11	115802091	SNP	G	A	"CBGP7_2aT,CBGP7_2b"	2	1	0	NA	P17	Paternal																
+19	34151974	SNP	G	A	"GPCB9_7e,GPCB9_7g,GPCB9_8c"	3	1	Paternal	NA	P19	NA																
+7	76423803	SNP	C	T	"GPCB9_8c,GPCB9_8f"	3	1	0	NA	P19	Paternal																
+1	83499463	SNP	T	A	"CBGP8_1b,CBGP8_1bT,CBGP8_5f"	2	1	0	NA	P2	NA																
+4	28191752	SNP	T	C	"CBGP8_1c,CBGP8_1cT,CBGP8_1g,CBGP8_1gT,CBGP8_4e,CBGP8_5f"	4	1	Paternal	NA	P2	NA																
+7	131003152	SNP	T	C	"CBGP8_1b,CBGP8_1bT,CBGP8_1c,CBGP8_1cT,CBGP8_5f"	3	1	0	NA	P2	NA																
+8	9781028	SNP	C	T	"CBGP8_1b,CBGP8_1bT,CBGP8_5f"	2	1	0	NA	P2	NA																
+11	104445769	SNP	G	A	"CBGP8_1g,CBGP8_1gT,CBGP8_4e"	2	1	0	NA	P2	NA																
+13	61390887	SNP	T	C	"CBGP8_1c,CBGP8_1cT,CBGP8_5f"	2	1	Paternal	NA	P2	NA																
+16	11983324	SNP	G	C	"CBGP8_1c,CBGP8_1cT,CBGP8_5f"	2	1	0	NA	P2	Paternal																
+16	57308000	SNP	G	A	"GPCB9_7d,GPCB9_8a,GPCB9_8b,GPCB9_8g"	4	1	0	NA	P20	Paternal																
+1	138426118	SNP	T	C	"GPCB11_1d,GPCB11_1e,GPCB11_1f,GPCB11_2a,GPCB11_2d,GPCB11_2g,GPCB11_3e,GPCB11_3h,GPCB11_3i,GPCB11_5e"	10	1	Paternal	NA	P22	NA																
+2	146721803	SNP	G	A	"GPCB11_1d,GPCB11_1e,GPCB11_1g,GPCB11_2h,GPCB11_3b,GPCB11_3j,GPCB11_5a,GPCB11_5d,GPCB11_5f"	9	1	Paternal	NA	P22	NA																
+2	142507389	SNP	G	A	"GPCB11_1f,GPCB11_1h,GPCB11_2d,GPCB11_2g,GPCB11_3a,GPCB11_3e,GPCB11_3h,GPCB11_3i,GPCB11_4c,GPCB11_5e"	10	1	Paternal	NA	P22	NA																
+18	32504139	SNP	G	A	"GPCB11_1f,GPCB11_2a,GPCB11_3a,GPCB11_3e,GPCB11_3i,GPCB11_5e"	6	1	Paternal	NA	P22	NA																
+17	85771936	SNP	C	T	"GPCB11_1b,GPCB11_1c,GPCB11_2b,GPCB11_4b"	4	1	0	NA	P22	Paternal																
+7	27465841	SNP	C	T	"GPCB11_1d,GPCB11_4c"	2	1	0	NA	P22	Paternal																
+2	30084760	SNP	C	T	"CBGP8_1a,CBGP8_1aT,CBGP8_3b,CBGP8_4a,CBGP8_4h,CBGP8_5d"	5	1	0	NA	P3	NA																
+10	58738218	SNP	G	A	"CBGP8_1a,CBGP8_1aT,CBGP8_2h,CBGP8_3a,CBGP8_4h,CBGP8_5d,CBGP8_6d"	6	1	0	NA	P3	NA																
+10	89180326	SNP	A	T	"CBGP8_1a,CBGP8_1aT,CBGP8_1d,CBGP8_1i,CBGP8_2d,CBGP8_2h,CBGP8_3a,CBGP8_4i,CBGP8_5d,CBGP8_6d,CBGP8_6e"	10	1	Paternal	NA	P3	NA																
+16	60282825	SNP	C	T	"CBGP8_1g,CBGP8_1gT,CBGP8_6c"	2	1	0	NA	P3/M1	NA																
+17	89395091	SNP	G	C	"CBGP8_1h,CBGP8_1hT"	0	0	Paternal	NA	P4	NA																
+1	30640907	SNP	A	T	"GPCB2_10c,GPCB2_1d,GPCB2_1dT,GPCB2_1g,GPCB2_3i,GPCB2_4e,GPCB2_4f,GPCB2_6a,GPCB2_7h"	8	1	0	NA	P6	NA																
+1	32557247	SNP	C	A	"GPCB2_10c,GPCB2_1d,GPCB2_1dT,GPCB2_1g,GPCB2_3i,GPCB2_4e,GPCB2_4f,GPCB2_6a,GPCB2_7h"	8	1	0	NA	P6	NA																
+1	110397430	SNP	A	C	"GPCB2_10c,GPCB2_1d,GPCB2_1dT,GPCB2_1e,GPCB2_1eT,GPCB2_1g,GPCB2_4d,GPCB2_4e,GPCB2_4f,GPCB2_5e,GPCB2_6a,GPCB2_6b,GPCB2_7h"	11	1	0	NA	P6	NA																
+1	195105306	SNP	C	T	"GPCB2_2e,GPCB2_3i,GPCB2_4f,GPCB2_5d,GPCB2_6b,GPCB2_7d,GPCB2_7h,GPCB2_9a,GPCB2_9aT"	8	1	Paternal	NA	P6	NA																
+8	77231086	SNP	G	A	"GPCB2_10e,GPCB2_1d,GPCB2_1dT,GPCB2_3i,GPCB2_4e,GPCB2_4f,GPCB2_5e,GPCB2_6b"	7	1	0	NA	P6	NA																
+10	64377304	MNV	G	T	"GPCB2_10e,GPCB2_1e,GPCB2_1eT,GPCB2_2a,GPCB2_2e,GPCB2_4d,GPCB2_4e,GPCB2_4f,GPCB2_5d,GPCB2_7d"	9	1	0	NA	P6	NA																
+10	64377305	MNV	A	T	"GPCB2_10e,GPCB2_1e,GPCB2_1eT,GPCB2_2a,GPCB2_2e,GPCB2_4d,GPCB2_4e,GPCB2_4f,GPCB2_5d,GPCB2_7d"	9	1	0	NA	P6	NA																
+11	67581517	SNP	G	A	"GPCB2_10c,GPCB2_10e,GPCB2_1g,GPCB2_3i,GPCB2_4d,GPCB2_5d,GPCB2_5e,GPCB2_7h,GPCB2_9a,GPCB2_9aT"	9	1	Paternal	NA	P6	NA																
+12	14764225	SNP	C	T	"GPCB2_10c,GPCB2_1d,GPCB2_1dT,GPCB2_1e,GPCB2_1eT,GPCB2_3i,GPCB2_4c,GPCB2_6a,GPCB2_6b,GPCB2_7d,GPCB2_7h"	9	1	Paternal	NA	P6	NA																
+12	63589298	SNP	G	A	"GPCB2_10c,GPCB2_10e,GPCB2_2a,GPCB2_4d,GPCB2_4f,GPCB2_7d,GPCB2_7h,GPCB2_9a,GPCB2_9aT"	8	1	0	NA	P6	NA																
+17	81262712	SNP	C	T	"GPCB2_1d,GPCB2_1dT,GPCB2_4c,GPCB2_5d,GPCB2_5e"	4	1	0	NA	P6	NA																
+18	51858237	SNP	C	T	"GPCB2_10e,GPCB2_1d,GPCB2_1dT,GPCB2_1e,GPCB2_1eT,GPCB2_3i,GPCB2_4c,GPCB2_4f,GPCB2_7d,GPCB2_7h,GPCB2_9a,GPCB2_9aT"	9	1	0	NA	P6	Paternal																
+1	142419769	SNP	G	A	"GPCB2_3g,GPCB2_9e,GPCB2_9eT"	2	1	0	NA	P7	Paternal																
+4	88966555	SNP	G	A	"GPCB2_10a,GPCB2_1h,GPCB2_3b,GPCB2_3g,GPCB2_3h,GPCB2_5f,GPCB2_6d,GPCB2_6f,GPCB2_7b,GPCB2_9b,GPCB2_9bT,GPCB2_9d,GPCB2_9e,GPCB2_9eT"	12	1	0	NA	P7	NA																
+18	68245753	SNP	G	T	"GPCB2_10a,GPCB2_3f,GPCB2_4b,GPCB2_5c,GPCB2_5f,GPCB2_5g,GPCB2_6e,GPCB2_6f,GPCB2_7b,GPCB2_7e,GPCB2_9b,GPCB2_9bT,GPCB2_9e,GPCB2_9eT,GPCB2_9h"	13	1	Paternal	NA	P7	NA																
+2	123112871	SNP	G	A	"GPCB2_1c,GPCB2_1cT,GPCB2_2d,GPCB2_2i,GPCB2_3e,GPCB2_5b,GPCB2_6h,GPCB2_7c,GPCB2_8a,GPCB2_8c,GPCB2_9i"	10	1	Paternal	NA	P8	NA																
+11	56513226	SNP	A	T	"GPCB2_10d,GPCB2_1a,GPCB2_1aT,GPCB2_2d,GPCB2_2g,GPCB2_3j,GPCB2_4g,GPCB2_5b,GPCB2_6c,GPCB2_6h,GPCB2_7f,GPCB2_8c,GPCB2_9g"	12	1	Paternal	NA	P8	Paternal																
+18	56684933	SNP	C	T	"GPCB2_1c,GPCB2_1cT,GPCB2_2d,GPCB2_5a,GPCB2_5b,GPCB2_7c,GPCB2_7f,GPCB2_8c,GPCB2_9g"	8	1	0	NA	P8	NA																
+3	27601982	SNP	A	C	"GPCB2_10b,GPCB2_1i,GPCB2_2b,GPCB2_2h,GPCB2_3d,GPCB2_9f,GPCB2_9fT"	6	1	Paternal	NA	P9	Paternal																
+3	143169567	SNP	G	A	"GPCB2_10b,GPCB2_1b,GPCB2_1bT,GPCB2_2b,GPCB2_3d,GPCB2_9f,GPCB2_9fT"	5	1	0	NA	P9	NA																
+3	154277992	SNP	C	A	"GPCB2_10b,GPCB2_1b,GPCB2_1bT,GPCB2_2b,GPCB2_3d,GPCB2_4a,GPCB2_7i,GPCB2_9c,GPCB2_9f,GPCB2_9fT"	8	1	0	NA	P9	NA																
+6	76705056	SNP	A	G	"GPCB2_10b,GPCB2_1b,GPCB2_1bT,GPCB2_1i,GPCB2_2c,GPCB2_2h,GPCB2_3a,GPCB2_3d"	7	1	Paternal	NA	P9	Paternal																
+15	102746714	SNP	C	A	"GPCB2_3d,GPCB2_9f,GPCB2_9fT"	2	1	0	NA	P9	NA																
+1	135552822	MNV	G	T	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	Maternal																
+1	135552823	MNV	C	T	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	Maternal																
+3	153005267	MNV	T	A	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	Maternal																
+3	153005268	MNV	G	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	Maternal																
+3	112458006	SNP	C	T	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	Maternal																
+2	171530847	SNP	C	T	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	Maternal																
+5	14873172	SNP	A	G	"CBGP4_6d, CBGP4_6dT"	0	0	0	VEE	Private	Maternal																
+11	121304851	SNP	A	G	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	Maternal																
+5	125867568	SNP	A	C	CBGP7_2aT	0	0	0	Zygotic	Private	Maternal																
+10	3214674	SNP	C	T	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	Maternal																
+18	88252949	SNP	C	G	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	Maternal																
+6	116253050	SNP	G	T	"CBGP7_2d, CBGP7_2dT"	0	0	0	VEE	Private	Maternal																
+19	59521029	SNP	T	C	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	Maternal																
+18	64561658	SNP	A	C	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	Maternal																
+1	5067832	SNP	A	G	"CBGP8_1a,CBGP8_1aT"	0	0	0	VEE	Private	Maternal																
+8	88340456	SNP	G	T	"CBGP8_1a,CBGP8_1aT"	0	0	0	VEE	Private	Maternal																
+16	80270908	SNP	C	T	"CBGP8_1a,CBGP8_1aT"	0	0	0	Zygotic	Private	Maternal																
+3	144476656	SNP	C	T	"CBGP8_1b,CBGP8_1bT"	0	0	0	VEE	Private	Maternal																
+8	83722794	SNP	G	A	"CBGP8_1c,CBGP8_1cT"	0	0	0	VEE	Private	Maternal																
+13	80101558	SNP	G	A	"CBGP8_1c,CBGP8_1cT"	0	0	0	Zygotic	Private	Maternal																
+8	6591394	SNP	G	C	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	Maternal																
+8	56431245	SNP	C	G	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	Maternal																
+19	45389576	SNP	C	G	"CBGP8_8f,CBGP8_8fT"	0	0	0	VEE	Private	Maternal																
+18	58781382	SNP	A	G	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	Maternal																
+1	137298691	SNP	G	A	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	Maternal																
+5	127283494	SNP	T	A	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	Maternal																
+1	118650544	SNP	G	A	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	Maternal																
+9	41304368	SNP	C	T	"GPCB2_9b,GPCB2_9bT"	0	0	0	VEE	Private	Maternal																
+14	62569285	SNP	G	A	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	Maternal																
+1	78648239	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	Unclear	Private	Maternal																
+3	73561458	SNP	A	G	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	Maternal																
+7	24373942	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	Maternal																
+8	99929313	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	Maternal																
+4	68314884	SNP	C	A	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	Maternal																
+4	134551637	SNP	C	T	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	Maternal																
+8	15000001	SNP	C	T	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	Maternal																
+11	89852446	SNP	C	T	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	Maternal																
+6	84779854	MNV	A	G	"GPCB11_1b, GPCB11_1bT"	0	0	0	Zygotic	Private	NA																
+6	84779858	MNV	G	A	"GPCB11_1b, GPCB11_1bT"	0	0	0	Zygotic	Private	NA																
+11	105314120	MNV	G	C	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+11	105314121	MNV	C	T	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+13	105389705	MNV	C	A	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+13	105389706	MNV	A	G	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+1	12283635	SNP	C	T	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	NA																
+4	32591169	SNP	T	C	"CBGP4_6a, CBGP4_6aT"	0	0	0	VEE	Private	NA																
+9	20629212	SNP	T	G	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	NA																
+10	61435811	SNP	C	T	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	NA																
+13	79067403	SNP	C	T	"CBGP4_6a, CBGP4_6aT"	0	0	0	VEE	Private	NA																
+16	80953294	SNP	G	A	"CBGP4_6a, CBGP4_6aT"	0	0	0	VEE	Private	NA																
+16	88400846	SNP	T	G	"CBGP4_6a, CBGP4_6aT"	0	0	0	VEE	Private	NA																
+18	61299112	SNP	C	T	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	NA																
+1	63214573	SNP	C	T	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	NA																
+6	37833725	SNP	T	G	"CBGP4_6b, CBGP4_6bT"	0	0	0	VEE	Private	NA																
+6	43464845	SNP	C	T	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	NA																
+6	46002188	SNP	C	T	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	NA																
+6	79701778	SNP	C	G	"CBGP4_6b, CBGP4_6bT"	0	0	0	VEE	Private	NA																
+7	135967903	SNP	A	T	"CBGP4_6b, CBGP4_6bT"	0	0	0	VEE	Private	NA																
+9	99576737	SNP	A	G	"CBGP4_6b, CBGP4_6bT"	0	0	0	VEE	Private	NA																
+10	116928419	SNP	G	A	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	NA																
+10	124799736	SNP	G	C	"CBGP4_6b, CBGP4_6bT"	0	0	0	VEE	Private	NA																
+11	72452783	SNP	G	A	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	NA																
+14	110660325	SNP	A	G	"CBGP4_6b, CBGP4_6bT"	0	0	0	VEE	Private	NA																
+17	84455651	SNP	T	C	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	NA																
+1	13980325	SNP	G	A	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	NA																
+7	29246857	SNP	G	A	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	NA																
+7	100661627	SNP	G	A	"CBGP4_6c, CBGP4_6cT"	0	0	0	VEE	Private	NA																
+10	115740655	SNP	G	A	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	NA																
+14	89096152	SNP	A	T	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	NA																
+3	5361410	SNP	T	A	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+3	74804486	SNP	A	T	"CBGP4_6d, CBGP4_6dT"	0	0	0	VEE	Private	NA																
+5	55804528	SNP	A	T	"CBGP4_6d, CBGP4_6dT"	0	0	0	VEE	Private	NA																
+5	58756772	SNP	G	T	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+5	67833248	SNP	C	T	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+6	99454206	SNP	G	A	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+6	122825902	SNP	T	G	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+7	140282004	SNP	T	G	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+8	30944823	SNP	C	A	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+9	119314015	SNP	C	T	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	NA																
+15	71402130	SNP	C	A	"CBGP4_6d, CBGP4_6dT"	0	0	0	VEE	Private	NA																
+2	60248276	SNP	C	T	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	NA																
+2	123559395	SNP	C	G	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	NA																
+3	146944022	SNP	G	A	"CBGP4_6e, CBGP4_6eT"	0	0	0	VEE	Private	NA																
+6	97940008	SNP	G	T	"CBGP4_6e, CBGP4_6eT"	0	0	0	VEE	Private	NA																
+6	108864977	SNP	T	G	"CBGP4_6e, CBGP4_6eT"	0	0	0	VEE	Private	NA																
+7	41523964	SNP	A	T	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	NA																
+14	93655520	SNP	C	A	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	NA																
+15	6744696	SNP	C	A	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	NA																
+1	37414451	SNP	G	A	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+1	137129253	SNP	G	T	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+1	179906250	SNP	A	C	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+5	78906687	SNP	T	G	CBGP7_2aT	0	0	0	VEE	Private	NA																
+5	150271214	SNP	G	T	CBGP7_2aT	0	0	0	VEE	Private	NA																
+7	6812277	SNP	A	T	CBGP7_2aT	0	0	0	VEE	Private	NA																
+9	85056000	SNP	A	G	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+11	19008252	SNP	T	G	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+12	6957861	SNP	A	T	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+13	105250190	SNP	C	T	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+14	107863462	SNP	A	T	CBGP7_2aT	0	0	0	Zygotic	Private	NA																
+1	155679378	SNP	G	T	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	NA																
+2	32731720	SNP	A	T	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	NA																
+2	91233196	SNP	G	A	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	NA																
+4	52517243	SNP	A	G	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	NA																
+6	49033151	SNP	C	T	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	NA																
+10	62424092	SNP	C	A	"CBGP7_2b, CBGP7_2bT"	0	0	0	VEE	Private	NA																
+10	75152206	SNP	G	C	"CBGP7_2b, CBGP7_2bT"	0	0	0	VEE	Private	NA																
+10	76913552	SNP	A	C	"CBGP7_2b, CBGP7_2bT"	0	0	0	VEE	Private	NA																
+13	107109189	SNP	T	C	"CBGP7_2b, CBGP7_2bT"	0	0	0	VEE	Private	NA																
+16	75300042	SNP	A	T	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	NA																
+19	7281156	SNP	G	T	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	NA																
+2	98742630	SNP	G	T	"CBGP7_2c, CBGP7_2cT"	0	0	0	Zygotic	Private	NA																
+2	179293847	SNP	T	C	"CBGP7_2c, CBGP7_2cT"	0	0	0	VEE	Private	NA																
+5	6965036	SNP	T	G	"CBGP7_2c, CBGP7_2cT"	0	0	0	Zygotic	Private	NA																
+9	54413610	SNP	G	A	"CBGP7_2c, CBGP7_2cT"	0	0	0	VEE	Private	NA																
+9	92820231	SNP	T	A	"CBGP7_2c, CBGP7_2cT"	0	0	0	VEE	Private	NA																
+12	40657719	SNP	C	T	"CBGP7_2c, CBGP7_2cT"	0	0	0	VEE	Private	NA																
+13	79135959	SNP	G	T	"CBGP7_2c, CBGP7_2cT"	0	0	0	VEE	Private	NA																
+13	112207508	SNP	G	A	"CBGP7_2c, CBGP7_2cT"	0	0	0	Zygotic	Private	NA																
+14	59668757	SNP	T	A	"CBGP7_2c, CBGP7_2cT"	0	0	0	VEE	Private	NA																
+15	62883647	SNP	C	T	"CBGP7_2c, CBGP7_2cT"	0	0	0	Zygotic	Private	NA																
+16	82026660	SNP	G	A	"CBGP7_2c, CBGP7_2cT"	0	0	0	Zygotic	Private	NA																
+17	18355492	SNP	C	T	"CBGP7_2c, CBGP7_2cT"	0	0	0	Zygotic	Private	NA																
+1	188538337	SNP	A	C	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+2	24784732	SNP	C	T	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+2	76511278	SNP	A	G	"CBGP7_2d, CBGP7_2dT"	0	0	0	VEE	Private	NA																
+2	117644464	SNP	A	G	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+2	154081476	SNP	T	C	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+2	167625007	SNP	G	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+6	34313056	SNP	T	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+8	79937435	SNP	T	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+9	68370245	SNP	G	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+9	96850412	SNP	C	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	VEE	Private	NA																
+9	96856038	SNP	C	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	VEE	Private	NA																
+10	14460012	SNP	C	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	VEE	Private	NA																
+12	6638701	SNP	A	G	"CBGP7_2d, CBGP7_2dT"	0	0	0	VEE	Private	NA																
+12	110826381	SNP	G	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	NA																
+1	155436617	SNP	C	T	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+2	76889786	SNP	T	C	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+2	108524311	SNP	C	A	"CBGP7_2e, CBGP7_2eT"	0	0	0	Zygotic	Private	NA																
+2	143500518	SNP	C	A	"CBGP7_2e, CBGP7_2eT"	0	0	0	Zygotic	Private	NA																
+5	35658101	SNP	C	T	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+5	82384310	SNP	T	A	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+6	6236872	SNP	A	T	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+8	44511497	SNP	C	T	"CBGP7_2e, CBGP7_2eT"	0	0	0	Zygotic	Private	NA																
+8	95183889	SNP	C	G	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+10	85170461	SNP	C	T	"CBGP7_2e, CBGP7_2eT"	0	0	0	Zygotic	Private	NA																
+11	51967978	SNP	G	A	"CBGP7_2e, CBGP7_2eT"	0	0	0	Zygotic	Private	NA																
+13	112515500	SNP	G	C	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+17	25492005	SNP	G	A	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+19	19320838	SNP	A	G	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	NA																
+1	79234624	SNP	C	A	"CBGP8_1a,CBGP8_1aT"	0	0	0	Zygotic	Private	NA																
+5	107060166	SNP	A	G	"CBGP8_1a,CBGP8_1aT"	0	0	0	VEE	Private	NA																
+10	13640191	SNP	C	T	"CBGP8_1a,CBGP8_1aT"	0	0	0	Zygotic	Private	NA																
+10	84829745	SNP	C	T	"CBGP8_1a,CBGP8_1aT"	0	0	0	Unclear	Private	NA																
+14	56171496	SNP	T	A	"CBGP8_1a,CBGP8_1aT"	0	0	0	Zygotic	Private	NA																
+16	34141404	SNP	A	G	"CBGP8_1a,CBGP8_1aT"	0	0	0	VEE	Private	NA																
+19	44935143	SNP	G	A	"CBGP8_1a,CBGP8_1aT"	0	0	0	VEE	Private	NA																
+2	138561285	SNP	G	A	"CBGP8_1b,CBGP8_1bT"	0	0	0	Zygotic	Private	NA																
+4	64858145	SNP	T	C	"CBGP8_1b,CBGP8_1bT"	0	0	0	Zygotic	Private	NA																
+6	16176809	SNP	T	C	"CBGP8_1b,CBGP8_1bT"	0	0	0	VEE	Private	NA																
+8	108720131	SNP	C	T	"CBGP8_1b,CBGP8_1bT"	0	0	0	VEE	Private	NA																
+10	77933543	SNP	T	C	"CBGP8_1b,CBGP8_1bT"	0	0	0	VEE	Private	NA																
+10	89032645	SNP	C	A	"CBGP8_1b,CBGP8_1bT"	0	0	0	Zygotic	Private	NA																
+12	91684976	SNP	G	A	"CBGP8_1b,CBGP8_1bT"	0	0	0	Zygotic	Private	NA																
+14	39012562	SNP	C	T	"CBGP8_1b,CBGP8_1bT"	0	0	0	Zygotic	Private	NA																
+14	102764297	SNP	T	C	"CBGP8_1b,CBGP8_1bT"	0	0	0	VEE	Private	NA																
+15	35519667	SNP	G	A	"CBGP8_1b,CBGP8_1bT"	0	0	0	Zygotic	Private	NA																
+2	14272948	SNP	A	C	"CBGP8_1c,CBGP8_1cT"	0	0	0	Unclear	Private	NA																
+5	83034481	SNP	G	A	"CBGP8_1c,CBGP8_1cT"	0	0	0	Zygotic	Private	NA																
+6	67126991	SNP	T	C	"CBGP8_1c,CBGP8_1cT"	0	0	0	VEE	Private	NA																
+8	27281587	SNP	T	A	"CBGP8_1c,CBGP8_1cT"	0	0	0	Zygotic	Private	NA																
+8	78957564	SNP	G	A	"CBGP8_1c,CBGP8_1cT"	0	0	0	VEE	Private	NA																
+11	43709439	SNP	C	T	"CBGP8_1c,CBGP8_1cT"	0	0	0	Zygotic	Private	NA																
+14	25180413	SNP	T	A	"CBGP8_1c,CBGP8_1cT"	0	0	0	Zygotic	Private	NA																
+14	94860686	SNP	A	C	"CBGP8_1c,CBGP8_1cT"	0	0	0	VEE	Private	NA																
+1	172174476	SNP	T	G	"CBGP8_1g,CBGP8_1gT"	0	0	0	VEE	Private	NA																
+3	136231378	SNP	C	T	"CBGP8_1g,CBGP8_1gT"	0	0	0	VEE	Private	NA																
+4	139021832	SNP	A	G	"CBGP8_1g,CBGP8_1gT"	0	0	0	Zygotic	Private	NA																
+6	15945218	SNP	G	C	"CBGP8_1g,CBGP8_1gT"	0	0	0	Zygotic	Private	NA																
+6	57789640	SNP	C	G	"CBGP8_1g,CBGP8_1gT"	0	0	0	Zygotic	Private	NA																
+7	74285554	SNP	G	A	"CBGP8_1g,CBGP8_1gT"	0	0	0	VEE	Private	NA																
+9	123480538	SNP	C	T	"CBGP8_1g,CBGP8_1gT"	0	0	0	VEE	Private	NA																
+16	31287604	SNP	A	T	"CBGP8_1g,CBGP8_1gT"	0	0	0	VEE	Private	NA																
+18	65640797	SNP	A	G	"CBGP8_1g,CBGP8_1gT"	0	0	0	Zygotic	Private	NA																
+6	13370177	SNP	T	C	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	NA																
+6	35223086	SNP	C	G	"CBGP8_1h,CBGP8_1hT"	0	0	0	Unclear	Private	NA																
+7	120159706	SNP	A	T	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	NA																
+7	134978823	SNP	G	A	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	NA																
+8	82384305	SNP	G	C	"CBGP8_1h,CBGP8_1hT"	0	0	0	VEE	Private	NA																
+15	5378064	SNP	C	A	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	NA																
+15	85894887	SNP	G	T	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	NA																
+1	97771593	SNP	G	T	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+2	146362437	SNP	T	C	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+6	64955198	SNP	G	A	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+7	104975169	SNP	T	C	"CBGP8_8a,CBGP8_8aT"	0	0	0	Unclear	Private	NA																
+9	116787054	SNP	A	C	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+13	18594532	SNP	C	T	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+15	17455507	SNP	C	T	"CBGP8_8a,CBGP8_8aT"	0	0	0	VEE	Private	NA																
+15	63444326	SNP	G	T	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+16	42879158	SNP	C	G	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+16	67102023	SNP	A	G	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	NA																
+1	113983514	SNP	G	A	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	NA																
+6	35242898	SNP	G	A	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	NA																
+6	132782197	SNP	A	G	"CBGP8_8b,CBGP8_8bT"	0	0	0	VEE	Private	NA																
+9	116336906	SNP	G	A	"CBGP8_8b,CBGP8_8bT"	0	0	0	VEE	Private	NA																
+10	30228793	SNP	A	G	"CBGP8_8b,CBGP8_8bT"	0	0	0	VEE	Private	NA																
+10	101175148	SNP	A	G	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	NA																
+11	100076435	SNP	G	C	"CBGP8_8b,CBGP8_8bT"	0	0	0	VEE	Private	NA																
+17	9176844	SNP	C	A	"CBGP8_8b,CBGP8_8bT"	0	0	0	VEE	Private	NA																
+1	94324958	SNP	T	G	"CBGP8_8c,CBGP8_8cT"	0	0	0	VEE	Private	NA																
+2	78208621	SNP	G	A	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	NA																
+4	63582163	SNP	C	G	"CBGP8_8c,CBGP8_8cT"	0	0	0	Unclear	Private	NA																
+5	87855708	SNP	G	T	"CBGP8_8c,CBGP8_8cT"	0	0	0	VEE	Private	NA																
+6	83695032	SNP	A	G	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	NA																
+10	9568031	SNP	T	C	"CBGP8_8c,CBGP8_8cT"	0	0	0	Unclear	Private	NA																
+11	120582250	SNP	G	T	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	NA																
+13	63522015	SNP	C	T	"CBGP8_8c,CBGP8_8cT"	0	0	0	VEE	Private	NA																
+15	96084840	SNP	G	A	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	NA																
+17	46291354	SNP	G	C	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	NA																
+17	46469772	SNP	C	T	"CBGP8_8c,CBGP8_8cT"	0	0	0	Unclear	Private	NA																
+2	22562097	SNP	C	T	"CBGP8_8cT,CBGP8_8cT"	0	0	0	VEE	Private	NA																
+1	39645209	SNP	G	C	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	NA																
+1	167736848	SNP	C	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+1	177753070	SNP	A	C	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+2	5615930	SNP	T	G	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+2	81178054	SNP	C	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	NA																
+2	84889159	SNP	T	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	NA																
+4	58925699	SNP	A	G	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+4	101165174	SNP	A	G	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	NA																
+4	102242090	SNP	T	C	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+5	45192553	SNP	G	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+6	61012618	SNP	T	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+6	99520234	SNP	A	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+6	121411360	SNP	G	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+7	12268862	SNP	T	G	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+9	88003185	SNP	G	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+10	31993151	SNP	C	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+11	52591350	SNP	G	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+12	36224754	SNP	A	G	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	NA																
+13	17817558	SNP	A	G	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	NA																
+13	105952810	SNP	G	C	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+14	85688306	SNP	A	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	NA																
+16	43575872	SNP	C	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	NA																
+1	63554671	SNP	C	T	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+1	97487865	SNP	C	T	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+2	28556769	SNP	A	T	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+3	81915113	SNP	G	A	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+7	100816543	SNP	G	A	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+8	107005967	SNP	G	A	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+10	86941243	SNP	C	T	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+15	7065734	SNP	A	C	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+15	29978679	SNP	T	A	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	NA																
+2	19176444	SNP	G	A	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	NA																
+4	69739838	SNP	T	C	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	NA																
+10	7600480	SNP	G	A	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	NA																
+10	12435611	SNP	C	T	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	NA																
+10	84691522	SNP	G	T	"GPCB11_1a, GPCB11_1aT"	0	0	0	VEE	Private	NA																
+11	55974176	SNP	A	T	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	NA																
+12	12140952	SNP	G	T	"GPCB11_1a, GPCB11_1aT"	0	0	0	VEE	Private	NA																
+12	91406068	SNP	G	A	"GPCB11_1a, GPCB11_1aT"	0	0	0	VEE	Private	NA																
+13	19471217	SNP	A	G	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	NA																
+13	36353517	SNP	C	T	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	NA																
+2	17511608	SNP	T	C	"GPCB11_1b, GPCB11_1bT"	0	0	0	VEE	Private	NA																
+4	103156826	SNP	A	G	"GPCB11_1b, GPCB11_1bT"	0	0	0	Zygotic	Private	NA																
+6	66345089	SNP	G	A	"GPCB11_1b, GPCB11_1bT"	0	0	0	VEE	Private	NA																
+6	143967212	SNP	T	C	"GPCB11_1b, GPCB11_1bT"	0	0	0	VEE	Private	NA																
+7	40823362	SNP	C	T	"GPCB11_1b, GPCB11_1bT"	0	0	0	VEE	Private	NA																
+9	99139492	SNP	A	G	"GPCB11_1b, GPCB11_1bT"	0	0	0	Zygotic	Private	NA																
+12	37572929	SNP	G	A	"GPCB11_1b, GPCB11_1bT"	0	0	0	VEE	Private	NA																
+14	114461291	SNP	G	A	"GPCB11_1b, GPCB11_1bT"	0	0	0	VEE	Private	NA																
+15	92876880	SNP	G	A	"GPCB11_1b, GPCB11_1bT"	0	0	0	Zygotic	Private	NA																
+18	33370378	SNP	A	C	"GPCB11_1b, GPCB11_1bT"	0	0	0	VEE	Private	NA																
+2	10464700	SNP	C	T	"GPCB11_1d, GPCB11_1dT"	0	0	0	Zygotic	Private	NA																
+8	103953997	SNP	C	T	"GPCB11_1d, GPCB11_1dT"	0	0	0	Zygotic	Private	NA																
+19	50400201	SNP	G	A	"GPCB11_1d, GPCB11_1dT"	0	0	0	VEE	Private	NA																
+2	99831622	SNP	C	T	"GPCB11_1f, GPCB11_1fT"	0	0	0	VEE	Private	NA																
+4	149716690	SNP	G	C	"GPCB11_1f, GPCB11_1fT"	0	0	0	VEE	Private	NA																
+6	63419015	SNP	C	A	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	NA																
+6	142019588	SNP	G	A	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	NA																
+7	130262979	SNP	C	G	"GPCB11_1f, GPCB11_1fT"	0	0	0	VEE	Private	NA																
+9	98586226	SNP	G	A	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	NA																
+10	21078417	SNP	C	G	"GPCB11_1f, GPCB11_1fT"	0	0	0	VEE	Private	NA																
+12	108035866	SNP	G	A	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	NA																
+13	98044008	SNP	G	A	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	NA																
+15	23849805	SNP	C	T	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	NA																
+16	52682596	SNP	C	A	"GPCB11_1f, GPCB11_1fT"	0	0	0	VEE	Private	NA																
+1	191219578	SNP	C	T	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+4	117065241	SNP	T	A	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+10	71356184	SNP	C	T	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+11	49179355	SNP	G	A	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+13	83745793	SNP	T	G	"GPCB11_1g, GPCB11_1gT"	0	0	0	VEE	Private	NA																
+13	114164763	SNP	C	T	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+14	74884983	SNP	T	A	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+16	68705981	SNP	G	T	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+19	31394009	SNP	T	C	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	NA																
+1	26154147	SNP	A	G	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+3	16536077	SNP	T	A	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+5	42038083	SNP	G	A	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	NA																
+5	64462243	SNP	T	A	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+5	103784829	SNP	G	A	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	NA																
+6	71555990	SNP	C	G	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+6	96988895	SNP	A	G	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+7	112529785	SNP	C	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	Unclear	Private	NA																
+8	78499797	SNP	C	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+10	12066674	SNP	C	A	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	NA																
+10	12066682	SNP	A	G	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	NA																
+10	47644722	SNP	C	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	NA																
+12	60544699	SNP	A	G	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+12	108223764	SNP	G	C	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+13	52317788	SNP	C	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+14	33667047	SNP	C	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+15	103120804	SNP	A	C	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+16	29559786	SNP	G	C	"GPCB2_1a,GPCB2_1aT"	0	0	0	VEE	Private	NA																
+2	87134407	SNP	A	T	"GPCB2_1b,GPCB2_1bT"	0	0	0	Zygotic	Private	NA																
+3	36151595	SNP	A	T	"GPCB2_1b,GPCB2_1bT"	0	0	0	Zygotic	Private	NA																
+4	73769608	SNP	A	G	"GPCB2_1b,GPCB2_1bT"	0	0	0	VEE	Private	NA																
+6	131401291	SNP	G	T	"GPCB2_1b,GPCB2_1bT"	0	0	0	Zygotic	Private	NA																
+15	78969339	SNP	C	T	"GPCB2_1b,GPCB2_1bT"	0	0	0	Zygotic	Private	NA																
+18	15661202	SNP	A	C	"GPCB2_1b,GPCB2_1bT"	0	0	0	VEE	Private	NA																
+1	41639037	SNP	A	G	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+1	129991062	SNP	G	C	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+2	150578943	SNP	A	G	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+3	17249844	SNP	T	G	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+3	101104521	SNP	C	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+4	125141592	SNP	T	A	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+6	10391129	SNP	G	C	"GPCB2_1c,GPCB2_1cT"	0	0	0	Unclear	Private	NA																
+7	14485267	SNP	C	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	Unclear	Private	NA																
+7	19556538	SNP	C	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+7	37465397	SNP	A	G	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+7	70047827	SNP	T	C	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+8	54630484	SNP	C	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+9	12404777	SNP	A	G	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+10	48085751	SNP	A	C	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+10	50720596	SNP	C	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+11	36136030	SNP	G	C	"GPCB2_1c,GPCB2_1cT"	0	0	0	VEE	Private	NA																
+12	87455237	SNP	C	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+13	114467255	SNP	T	A	"GPCB2_1c,GPCB2_1cT"	2	0	0	NA	Private	NA																
+13	117961004	SNP	G	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	Unclear	Private	NA																
+14	68076055	SNP	A	G	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+14	103153571	SNP	A	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+15	73291581	SNP	C	T	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+19	29337373	SNP	G	A	"GPCB2_1c,GPCB2_1cT"	0	0	0	Zygotic	Private	NA																
+2	65438563	SNP	T	G	"GPCB2_1d,GPCB2_1dT"	0	0	0	VEE	Private	NA																
+2	80767321	SNP	G	A	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	NA																
+2	180502073	SNP	T	C	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	NA																
+4	80901902	SNP	T	G	"GPCB2_1d,GPCB2_1dT"	0	0	0	VEE	Private	NA																
+5	106976916	SNP	G	T	"GPCB2_1d,GPCB2_1dT"	0	0	0	Unclear	Private	NA																
+8	105428873	SNP	A	G	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	NA																
+11	50873775	SNP	G	A	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	NA																
+11	52452683	SNP	C	T	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	NA																
+16	42071434	SNP	C	T	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	NA																
+19	17062781	SNP	G	A	"GPCB2_1d,GPCB2_1dT"	0	0	0	VEE	Private	NA																
+3	129452552	SNP	C	T	"GPCB2_1e,GPCB2_1eT"	0	0	0	VEE	Private	NA																
+4	50755266	SNP	C	T	"GPCB2_1e,GPCB2_1eT"	0	0	0	Zygotic	Private	NA																
+5	108415057	SNP	T	C	"GPCB2_1e,GPCB2_1eT"	0	0	0	Unclear	Private	NA																
+7	84080435	SNP	G	A	"GPCB2_1e,GPCB2_1eT"	0	0	0	Zygotic	Private	NA																
+10	117013023	SNP	C	T	"GPCB2_1e,GPCB2_1eT"	0	0	0	Zygotic	Private	NA																
+16	14310332	SNP	C	T	"GPCB2_1e,GPCB2_1eT"	0	0	0	Unclear	Private	NA																
+1	42156553	SNP	C	G	"GPCB2_9a,GPCB2_9aT"	0	0	0	VEE	Private	NA																
+2	29457796	SNP	C	T	"GPCB2_9a,GPCB2_9aT"	2	0	0	NA	Private	NA																
+3	87036006	SNP	C	T	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+4	58917340	SNP	A	G	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+6	22330077	SNP	G	A	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+6	105920492	SNP	T	A	"GPCB2_9a,GPCB2_9aT"	0	0	0	VEE	Private	NA																
+6	122687878	SNP	G	A	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+9	43540950	SNP	T	A	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+10	21417582	SNP	G	A	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+11	4906364	SNP	G	C	"GPCB2_9a,GPCB2_9aT"	0	0	0	VEE	Private	NA																
+16	68665554	SNP	T	G	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+17	59454190	SNP	T	A	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	NA																
+1	146304163	SNP	C	T	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	NA																
+2	162325061	SNP	C	T	"GPCB2_9b,GPCB2_9bT"	0	0	0	VEE	Private	NA																
+3	108039564	SNP	C	T	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	NA																
+4	132484572	SNP	G	A	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	NA																
+6	81839999	SNP	G	A	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	NA																
+6	90850609	SNP	C	A	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	NA																
+10	88878511	SNP	T	C	"GPCB2_9b,GPCB2_9bT"	0	0	0	VEE	Private	NA																
+10	89397695	SNP	C	G	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	NA																
+13	26796019	SNP	G	A	"GPCB2_9b,GPCB2_9bT"	0	0	0	VEE	Private	NA																
+14	108417949	SNP	G	T	"GPCB2_9b,GPCB2_9bT"	0	0	0	VEE	Private	NA																
+19	6588884	SNP	C	T	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	NA																
+1	64878975	SNP	T	C	"GPCB2_9c,GPCB2_9cT"	0	0	0	VEE	Private	NA																
+1	112196692	SNP	C	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	VEE	Private	NA																
+3	85987472	SNP	C	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+3	117101041	SNP	A	G	"GPCB2_9c,GPCB2_9cT"	0	0	0	VEE	Private	NA																
+3	138903473	SNP	A	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+3	157748972	SNP	T	G	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+5	139129253	SNP	G	A	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+6	127932827	SNP	C	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+7	121351761	SNP	G	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+9	93529665	SNP	T	A	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+10	73378298	SNP	C	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	VEE	Private	NA																
+11	98579382	SNP	C	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+12	3992137	SNP	A	G	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+12	15941324	SNP	C	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+12	40796578	SNP	C	G	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+12	84178469	SNP	C	A	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+13	25160950	SNP	T	G	"GPCB2_9c,GPCB2_9cT"	0	0	0	VEE	Private	NA																
+13	26006591	SNP	A	G	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	NA																
+16	90293280	SNP	C	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Unclear	Private	NA																
+17	42169142	SNP	A	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	Unclear	Private	NA																
+2	150379247	SNP	T	C	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+3	135186656	SNP	G	A	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+4	17474364	SNP	C	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+4	103766344	SNP	C	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+7	45140926	SNP	T	A	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+9	56554707	SNP	C	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+10	7627856	SNP	T	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+12	100427106	SNP	C	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+13	85414253	SNP	A	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+14	77655602	SNP	A	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+17	77660988	SNP	A	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+17	80624887	SNP	C	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+18	8061694	SNP	C	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+18	27358077	SNP	C	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+18	78755050	SNP	T	C	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	NA																
+1	15453534	SNP	A	G	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	NA																
+1	144016862	SNP	G	A	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+2	141290636	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	NA																
+5	35499946	SNP	C	A	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+5	69552435	SNP	A	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	NA																
+5	99734828	SNP	C	G	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+6	27623167	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+7	68588108	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	NA																
+7	132328444	SNP	A	G	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+10	43792887	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+11	106175687	SNP	G	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	NA																
+11	107736396	SNP	T	C	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	NA																
+12	94820991	SNP	C	G	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	NA																
+14	64449571	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+16	42071542	SNP	G	A	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+16	43264032	SNP	T	C	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	NA																
+2	159076641	SNP	G	T	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+3	32388937	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+5	106818244	SNP	G	T	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+5	126847964	SNP	G	T	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+6	4858431	SNP	G	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+6	127081472	SNP	T	G	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+7	57886253	SNP	C	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+7	125649469	SNP	T	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+8	8754160	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+8	15542914	SNP	A	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+8	30833651	SNP	A	T	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+8	57111174	SNP	A	G	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+9	96719713	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+10	18394910	SNP	T	G	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+10	46873571	SNP	T	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+10	71158494	SNP	T	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+10	105803624	SNP	C	G	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+10	125378066	SNP	G	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+10	130165663	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+13	25169119	SNP	G	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	VEE	Private	NA																
+13	71153650	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+13	93706028	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+15	56484354	SNP	T	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+15	76413887	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+16	14457983	SNP	A	G	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+16	49444911	SNP	C	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	NA																
+1	31901634	SNP	A	T	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	NA																
+3	58797664	SNP	A	G	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	NA																
+5	118721742	SNP	C	T	"GPCB9_8c, GPCB9_8cT"	0	0	0	VEE	Private	NA																
+5	151131575	SNP	A	T	"GPCB9_8c, GPCB9_8cT"	0	0	0	VEE	Private	NA																
+10	5075830	SNP	C	T	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	NA																
+10	34291045	SNP	G	A	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	NA																
+11	25649092	SNP	G	A	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	NA																
+12	106583695	SNP	C	T	"GPCB9_8c, GPCB9_8cT"	0	0	0	VEE	Private	NA																
+15	21018919	SNP	G	A	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	NA																
+17	53389036	SNP	T	A	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	NA																
+6	8963598	SNP	T	C	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	NA																
+6	148651590	SNP	G	A	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	NA																
+10	32296904	SNP	G	A	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	NA																
+10	38193121	SNP	A	G	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	NA																
+12	47683261	SNP	G	A	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	NA																
+14	79448251	SNP	A	C	"GPCB9_8d, GPCB9_8dT"	0	0	0	VEE	Private	NA																
+14	105088604	SNP	C	T	"GPCB9_8d, GPCB9_8dT"	0	0	0	VEE	Private	NA																
+7	76555299	SNP	C	A	GPCB9_8f	0	0	0	Zygotic	Private	NA																
+2	77071453	SNP	T	G	"GPCB9_8f, GPCB9_8fT"	0	0	0	VEE	Private	NA																
+2	134135013	SNP	C	G	"GPCB9_8f, GPCB9_8fT"	0	0	0	VEE	Private	NA																
+9	120892813	SNP	A	C	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+10	75689204	SNP	C	G	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+11	24865127	SNP	G	A	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+13	71744306	SNP	C	A	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+14	85717266	SNP	A	T	"GPCB9_8f, GPCB9_8fT"	0	0	0	VEE	Private	NA																
+16	55717824	SNP	A	T	"GPCB9_8f, GPCB9_8fT"	0	0	0	VEE	Private	NA																
+17	23974958	SNP	C	A	"GPCB9_8f, GPCB9_8fT"	0	0	0	VEE	Private	NA																
+18	78706920	SNP	A	C	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	NA																
+1	133260444	SNP	G	T	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	NA																
+5	48273816	SNP	G	A	"GPCB9_8g, GPCB9_8gT"	0	0	0	VEE	Private	NA																
+6	24301272	SNP	G	A	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	NA																
+6	82113871	SNP	C	A	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	NA																
+7	12417167	SNP	T	C	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	NA																
+8	46617350	SNP	A	G	"GPCB9_8g, GPCB9_8gT"	0	0	0	VEE	Private	NA																
+11	8394226	SNP	G	A	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	NA																
+11	78820287	SNP	G	T	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	NA																
+12	80667469	SNP	A	G	"GPCB9_8g, GPCB9_8gT"	0	0	0	VEE	Private	NA																
+13	100154877	MNV	C	T	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	Paternal																
+13	100154880	MNV	G	A	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	Paternal																
+13	100154911	SNP	T	A	"CBGP8_1h,CBGP8_1hT"	0	0	0	Unclear	Private	Paternal																
+6	147266114	SNP	C	T	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	Paternal																
+11	26991640	SNP	G	C	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	Paternal																
+17	24600010	SNP	A	C	"CBGP4_6a, CBGP4_6aT"	0	0	0	Zygotic	Private	Paternal																
+3	13897047	SNP	G	T	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	Paternal																
+4	32000571	SNP	C	T	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	Paternal																
+6	116710813	SNP	G	A	"CBGP4_6b, CBGP4_6bT"	0	0	0	Zygotic	Private	Paternal																
+4	71468951	SNP	T	C	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	Paternal																
+4	78679413	SNP	T	C	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	Paternal																
+13	47125746	SNP	A	C	"CBGP4_6c, CBGP4_6cT"	0	0	0	VEE	Private	Paternal																
+15	32139571	SNP	C	T	"CBGP4_6c, CBGP4_6cT"	0	0	0	Zygotic	Private	Paternal																
+1	88620618	SNP	C	T	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	Paternal																
+2	63272359	SNP	G	A	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	Paternal																
+2	174824749	SNP	G	A	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	Paternal																
+19	20324306	SNP	G	A	"CBGP4_6d, CBGP4_6dT"	0	0	0	Zygotic	Private	Paternal																
+2	122162193	SNP	G	A	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	Paternal																
+3	51902564	SNP	C	T	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	Paternal																
+6	61469035	SNP	A	G	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	Paternal																
+8	48387481	SNP	G	A	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	Paternal																
+9	89552668	SNP	G	A	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	Paternal																
+14	67699146	SNP	C	T	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	Paternal																
+19	59865641	SNP	G	A	"CBGP4_6e, CBGP4_6eT"	0	0	0	Zygotic	Private	Paternal																
+5	122648439	SNP	G	A	CBGP7_2aT	0	0	0	Zygotic	Private	Paternal																
+15	87720425	SNP	C	T	CBGP7_2aT	0	0	0	Zygotic	Private	Paternal																
+15	97797699	SNP	A	G	CBGP7_2aT	0	0	0	Zygotic	Private	Paternal																
+19	39272577	SNP	T	G	"CBGP7_2b, CBGP7_2bT"	0	0	0	Zygotic	Private	Paternal																
+6	8866229	SNP	G	T	"CBGP7_2c, CBGP7_2cT"	0	0	0	Zygotic	Private	Paternal																
+12	101963200	SNP	C	T	"CBGP7_2c, CBGP7_2cT"	0	0	0	VEE	Private	Paternal																
+3	137598275	SNP	C	A	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	Paternal																
+11	117482893	SNP	C	T	"CBGP7_2d, CBGP7_2dT"	0	0	0	Zygotic	Private	Paternal																
+6	106335919	SNP	T	G	"CBGP7_2e, CBGP7_2eT"	0	0	0	VEE	Private	Paternal																
+18	9631978	SNP	G	A	"CBGP7_2e, CBGP7_2eT"	0	0	0	Zygotic	Private	Paternal																
+7	116195263	SNP	C	T	"CBGP8_1a,CBGP8_1aT"	0	0	0	Zygotic	Private	Paternal																
+4	48574258	SNP	A	C	"CBGP8_1b,CBGP8_1bT"	0	0	0	VEE	Private	Paternal																
+9	33028112	SNP	C	T	"CBGP8_1b,CBGP8_1bT"	0	0	0	VEE	Private	Paternal																
+4	57651259	SNP	G	A	"CBGP8_1c,CBGP8_1cT"	0	0	0	Zygotic	Private	Paternal																
+5	129793956	SNP	A	C	"CBGP8_1c,CBGP8_1cT"	0	0	0	Unclear	Private	Paternal																
+13	99858333	SNP	G	T	"CBGP8_1h,CBGP8_1hT"	0	0	0	Zygotic	Private	Paternal																
+13	100154951	SNP	C	T	"CBGP8_1h,CBGP8_1hT"	0	0	0	VEE	Private	Paternal																
+3	153819945	SNP	C	A	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	Paternal																
+14	49412990	SNP	G	T	"CBGP8_8a,CBGP8_8aT"	0	0	0	Zygotic	Private	Paternal																
+15	101718352	SNP	G	A	"CBGP8_8a,CBGP8_8aT"	0	0	0	Unclear	Private	Paternal																
+19	52994214	SNP	A	T	"CBGP8_8a,CBGP8_8aT"	0	0	0	Unclear	Private	Paternal																
+2	54947668	SNP	G	A	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	Paternal																
+2	159375816	SNP	C	T	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	Paternal																
+4	130946976	SNP	T	C	"CBGP8_8b,CBGP8_8bT"	0	0	0	Zygotic	Private	Paternal																
+3	36830384	SNP	G	A	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	Paternal																
+3	135697267	SNP	C	T	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	Paternal																
+3	144376798	SNP	T	A	"CBGP8_8c,CBGP8_8cT"	0	0	0	VEE	Private	Paternal																
+17	42742980	SNP	C	A	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	Paternal																
+19	42973929	SNP	G	A	"CBGP8_8c,CBGP8_8cT"	0	0	0	Zygotic	Private	Paternal																
+1	39643858	SNP	A	C	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	Paternal																
+4	121217300	SNP	A	G	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	Paternal																
+9	45823037	SNP	C	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	Paternal																
+9	103980697	SNP	C	T	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	Paternal																
+13	93825784	SNP	C	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	VEE	Private	Paternal																
+15	94838467	SNP	T	A	"CBGP8_8d,CBGP8_8dT"	0	0	0	Zygotic	Private	Paternal																
+1	13681509	SNP	A	T	"CBGP8_8f,CBGP8_8fT"	0	0	0	VEE	Private	Paternal																
+4	46814018	SNP	C	T	"CBGP8_8f,CBGP8_8fT"	0	0	0	VEE	Private	Paternal																
+5	13474002	SNP	C	A	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	Paternal																
+8	128562435	SNP	G	C	"CBGP8_8f,CBGP8_8fT"	0	0	0	Zygotic	Private	Paternal																
+2	95314962	SNP	G	A	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	Paternal																
+3	73891073	SNP	T	C	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	Paternal																
+5	122549316	SNP	G	T	"GPCB11_1a, GPCB11_1aT"	0	0	0	Zygotic	Private	Paternal																
+1	119035590	SNP	G	A	"GPCB11_1b, GPCB11_1bT"	0	0	0	Zygotic	Private	Paternal																
+7	40294610	SNP	A	T	"GPCB11_1b, GPCB11_1bT"	0	0	0	Zygotic	Private	Paternal																
+4	124081738	SNP	C	T	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	Paternal																
+13	96959051	SNP	G	A	"GPCB11_1f, GPCB11_1fT"	0	0	0	Zygotic	Private	Paternal																
+3	113902683	SNP	G	A	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	Paternal																
+3	153756961	SNP	C	T	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	Paternal																
+4	68370856	SNP	A	G	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	Paternal																
+7	97343574	SNP	T	C	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	Paternal																
+14	111763744	SNP	G	A	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	Paternal																
+15	47194712	SNP	A	G	"GPCB11_1g, GPCB11_1gT"	0	0	0	Zygotic	Private	Paternal																
+5	97652679	SNP	T	C	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	Paternal																
+7	84612798	SNP	A	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	Paternal																
+18	88112019	SNP	C	T	"GPCB2_1a,GPCB2_1aT"	0	0	0	Zygotic	Private	Paternal																
+5	21935572	SNP	A	C	"GPCB2_1b,GPCB2_1bT"	0	0	0	VEE	Private	Paternal																
+11	88764475	SNP	G	A	"GPCB2_1b,GPCB2_1bT"	0	0	0	VEE	Private	Paternal																
+15	79393387	SNP	G	T	"GPCB2_1b,GPCB2_1bT"	0	0	0	Zygotic	Private	Paternal																
+2	96002105	SNP	G	A	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	Paternal																
+12	100564302	SNP	G	A	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	Paternal																
+17	43275565	SNP	T	A	"GPCB2_1d,GPCB2_1dT"	0	0	0	Zygotic	Private	Paternal																
+2	159105803	SNP	C	T	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	Paternal																
+3	128660702	SNP	C	G	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	Paternal																
+5	129029844	SNP	C	T	"GPCB2_9a,GPCB2_9aT"	0	0	0	Zygotic	Private	Paternal																
+17	67324688	SNP	C	G	"GPCB2_9a,GPCB2_9aT"	0	0	0	VEE	Private	Paternal																
+1	66512558	SNP	C	T	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	Paternal																
+9	61532482	SNP	G	A	"GPCB2_9b,GPCB2_9bT"	0	0	0	VEE	Private	Paternal																
+13	20466520	SNP	G	A	"GPCB2_9b,GPCB2_9bT"	0	0	0	Zygotic	Private	Paternal																
+1	69081642	SNP	G	A	"GPCB2_9c,GPCB2_9cT"	0	0	0	Zygotic	Private	Paternal																
+1	106713695	SNP	G	A	"GPCB2_9c,GPCB2_9cT"	0	0	0	VEE	Private	Paternal																
+2	67820969	SNP	A	T	"GPCB2_9c,GPCB2_9cT"	0	0	0	VEE	Private	Paternal																
+4	39664444	SNP	G	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	Paternal																
+8	16506210	SNP	T	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	Paternal																
+9	86824474	SNP	C	A	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	Paternal																
+12	116152903	SNP	C	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	Paternal																
+17	36425154	SNP	C	T	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	Paternal																
+17	44701512	SNP	A	G	"GPCB2_9e,GPCB2_9eT"	0	0	0	Zygotic	Private	Paternal																
+3	138370673	SNP	T	C	"GPCB2_9f,GPCB2_9fT"	0	0	0	VEE	Private	Paternal																
+4	68150967	SNP	G	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	Paternal																
+4	92940441	SNP	T	A	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	Paternal																
+5	113854506	SNP	C	T	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	Paternal																
+13	74356177	SNP	T	C	"GPCB2_9f,GPCB2_9fT"	0	0	0	Zygotic	Private	Paternal																
+4	150619395	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	Paternal																
+7	18044367	SNP	G	T	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	Paternal																
+9	63896481	SNP	G	A	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	Paternal																
+11	26758223	SNP	A	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	Paternal																
+12	104005161	SNP	T	C	"GPCB9_8a, GPCB9_8aT"	0	0	0	Zygotic	Private	Paternal																
+11	46468164	SNP	A	G	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	Paternal																
+14	122002920	SNP	G	A	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	Paternal																
+16	74421195	SNP	T	C	"GPCB9_8c, GPCB9_8cT"	0	0	0	Zygotic	Private	Paternal																
+8	127631994	SNP	T	C	"GPCB9_8d, GPCB9_8dT"	0	0	0	VEE	Private	Paternal																
+9	115729803	SNP	C	T	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	Paternal																
+13	116199463	SNP	G	A	"GPCB9_8d, GPCB9_8dT"	0	0	0	Zygotic	Private	Paternal																
+1	155742945	SNP	C	T	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+2	12014139	SNP	G	A	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+2	104413336	SNP	C	T	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+4	117900410	SNP	C	T	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+9	40635563	SNP	T	G	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+9	106224354	SNP	T	A	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+12	26359183	SNP	G	A	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+15	92314752	SNP	T	C	"GPCB9_8f, GPCB9_8fT"	0	0	0	Zygotic	Private	Paternal																
+3	80771220	SNP	C	T	"GPCB9_8g, GPCB9_8gT"	0	0	0	Zygotic	Private	Paternal																
+16	18797271	SNP	C	T	"CBGP8_4b,CBGP8_5a,CBGP8_6g,CBGP8_7b,CBGP8_8d,CBGP8_8dT"	5	1	0	NA	U	NA																
