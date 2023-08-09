@@ -1,6 +1,6 @@
-# Principal components analyses
+# Principal component analyses
 
-These scripts were used to generate principal components analyses based on mutation spectra, including plots in Figure 2 and supplemental PCA figures. 
+These scripts were used to generate principal component analyses based on mutation spectra, including plots in Figure 2 and supplemental PCA figures. 
 
 ### Overview: 
 The script `subsampled.PCA.allspecies_HumanRescalingUseThis.R` reads in per-individual 7-mer spectra and genomic target information (these files are output by the mutyper pipeline and can be found on Dryad repository in the mutyperOutput7mer.tar.gz), processes per-individual spectra (collapses 7-mer spectra down to  1-mer, 3-mer, 5-mer spectra, rescales to human genome content, downsamples, regularizes and CLR-transforms) then carries out principal components analysis. 
