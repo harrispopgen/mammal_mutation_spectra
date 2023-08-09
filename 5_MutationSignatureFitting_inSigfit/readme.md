@@ -31,7 +31,8 @@ Additional details in SI Methods.
 
 * `speciesCodes.txt`: species Latin names for matching with phylogenetic tree (provided here for convenience)
 
-* `RAxML_bipartitions.result_FIN4_raw_rooted_wBoots_4098mam1out_OK.newick`: RAXML tree from Upham et al. (2019) - this contains all the species from Upham et al. and gets subset to the species in our study during this script. Branch lengths represent expected substitutions (in phylogenetic_trees.tar.gz directory on Dryad) 
+* `RAxML_bipartitions.result_FIN4_raw_rooted_wBoots_4098mam1out_OK.newick`: RAXML tree from Upham et al. (2019) - this contains all the species from Upham et al. and gets subset to the species in our study during this script. Branch lengths represent expected substitutions (in phylogenetic_trees.tar.gz directory on Dryad)
+     * Upham, Nathan S., Jacob A. Esselstyn, and Walter Jetz. "Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation." PLoS biology 17.12 (2019): e3000494.
 
 #### Step 2: Overlay reconstructed and empirical pairwise distance results
 In this step, the script `Step_2_overlayMantelTestResultPlots` was used to overlay Mantel test results from `step 1` based on reconstructed species' spectra are overlaid with original results based on empirical spectra (from the 3_PhyloSignalOfSpectra_and_Enrichments/ scripts) to see how well the phylogenetic signal of the reconstructed spectra compares to that of the empirical spectra.
