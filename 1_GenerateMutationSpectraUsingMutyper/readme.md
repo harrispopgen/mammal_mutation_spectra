@@ -1,7 +1,7 @@
 # Mutyper pipeline: generate mutation spectra from all species
 
 ### Overview
-These scripts were used to generate 7-mer mutation spectra and genomic target counts for every species in the dataset. As part of this pipeline, 5 random individuals were subset from each species/population in the dataset, and input vcf files were masked and filtered, including masking out exonic regions +- 10kb, RepeatMasker-annotated regions, CpG Islands, and low-complexity regions. 
+These scripts were used to generate 7-mer mutation spectra and genomic target counts for every species in the dataset using the program [`mutyper`](https://harrispopgen.github.io/mutyper/). As part of this pipeline, 5 random individuals were subset from each species/population in the dataset, and input vcf files were masked and filtered, including masking out exonic regions +- 10kb, RepeatMasker-annotated regions, CpG Islands, and low-complexity regions. 
 
 The 7-mer spectra were subsequently collapsed down into 1-mer, 3-mer and 5-mer spectra.
 
