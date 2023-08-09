@@ -23,10 +23,10 @@ The **output** of the pipeline for all species is in the `mutyperOutput_7mer.tar
 
 
 ### Config files:
-The config files for each species contain the information used to run the mutyper pipeline as a job array on an SGE cluster enrivonment and contains paths to input files and species-specific parameters. If you were to use the config, you would need to update all input paths to be specific to your system possibly modify them to account for how job arrays are set up on your server. The files are commented inside, but in summary:
+The config files for each species contain the information used to run the mutyper pipeline as a job array on an SGE cluster environment and contains paths to input files and species-specific parameters. If you were to use the config, you would need to update all input paths to be specific to your system possibly modify them to account for how job arrays are set up on your server. The files are commented inside, but in summary:
 * `species`: species label
 * `interval_or_chr_or_all`: specifies whether input genomes are split into intervals (for non-chromosomal assemblies, chromosomes, or have all autosomes combined)
-* `prepend0`: TRUE/FALSE specifies if intervals have a pre-pended 0 (e.g. interval 01, 02, 03 etc)
+* `prepend0`: TRUE/FALSE specifies if intervals have a pre-pended 0 (e.g. interval 01, 02, 03 etc.)
 * `interval_count`: the number of intervals or chromosomes (e.g. 22 for human, 98 for fin whale, NA if all autosomes are combined, etc.). The config file will put the interval being worked on from the $SGE_TASK_ID in the job array (set up by wrapper scripts of pipeline)
 * `kmersize`: the size of kmer you want to generate. We generated 7mer spectra then subset them down to 1,3, and 5-mer.
 
@@ -61,7 +61,7 @@ The purpose of mutyper targets is to count up the genomic targets in the masked 
 
 The ancestral fasta file was masked in `step 1` above, so that the regions we excluded from the spectra (exonic regions, repeat masker annotated regions, etc.) were also not included in the target counts.
 
-The process occcurs in two substeps:
+The process occurs in two sub-steps:
 * *Step 2a* : running `mutyper targets` using `step_2a_mutyper_targets.sh` and its job-array wrapper `step_2a_mutyper_targets.WRAPPER.sh`
 * *Step 2b* : summing up the target counts across all genomic intervals to get total masked-genome counts using `step_2b_sumuptargets.R` and its wrapper `step_2b_sumuptargets.WRAPPER.sh`
 
@@ -73,7 +73,7 @@ A crucial step in generating the per-individual spectra is the `--randomize` par
 
 The individual-level spectra are used for PCA analyses, and the species-level spectra for pairwise distance calculations between species.
 
-The process occcurs in three substeps:
+The process occurs in three sub-steps:
 * *Step 3a* : running `mutyper spectra` using `step_3a_mutyper_spectrum.RandomizingAcrossPopsWithinSpecies.sh` and its job-array wrapper `step_3a_mutyper_spectrum.RandomizingAcrossPopsWithinSpecies.WRAPPER.sh`
 * *Step 3b* : summing up the spectra counts across all genomic intervals to get total masked-genome spectra counts using `step_3b_sumupspectra_acrossintervals.R` and its wrapper `step_3b_sumupspectra_acrossintervals.WRAPPER.sh`
 * *Step 3c* : concatenating the spectra across all species/populations to make one master file `allSpectra.PopulationLevel.BasedOn5individualsPerPop.notprojected.usethis.txt` (which is in Dryad in the mutyperOutput_7mer.tar.gz directory)
