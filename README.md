@@ -5,7 +5,7 @@ This GitHub repository contains the scripts that were used to generate the analy
 **Beichman, Robinson, Lin, Nigenda-Morales, Moreno Estrada, & Harris. "Evolution of the mutation spectrum across a mammalian phylogeny," _Molecular Biology & Evolution_ (in revision)**
 
 <p align="center">
-<img src="https://github.com/harrispopgen/mammal_mutation_spectra/assets/10618123/ca6cf952-0974-48a4-a7c7-586ed7b81c41" height="600">
+<img src="https://github.com/harrispopgen/mammal_mutation_spectra/assets/10618123/ca6cf952-0974-48a4-a7c7-586ed7b81c41" height="500">
 </p>
 
 <p align="center">
