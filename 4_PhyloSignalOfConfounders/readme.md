@@ -1,5 +1,6 @@
-### Phylogenetic signal of technical and biological confounders
+# Phylogenetic signal of technical and biological confounders
 
+### Overview
 The script `runMantelTestOnConfounders.R` was used to calculate whether numerous technical and biological variables (contig N50, scaffold N50, average sequencing coverage, Watterson's theta, age at first reproduction, reproductive lifespan) show any significant 'phylogenetic signal' (the correlation between pairwise differences in the 'trait' and the square root of phylogenetic distance between species). See SI Methods for details.
 
 ###### input files:
