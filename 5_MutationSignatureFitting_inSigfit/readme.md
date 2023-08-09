@@ -26,7 +26,7 @@ Additional details in SI Methods.
 * `jonsson.agingsignatures.tables9.convertedtoproportionsinexcel.REVCOMP.REORDEREDTOMATCHMYDATA.YOUNGPARENTCALCAT13.notintercept.txt`: a table containing the maternal (maternal_age), paternal (paternal_age) and 'young parent' (young_parent_13) aging signatures that we derived from the Poisson regressions in Jonsson et al's Table S9 (details in SI Methods of the paper) and used for fitting aging signatures to our mammal spectrum data with sigfit. Columns represent each of the 7 mutation types in the 1-mer+CpG spectrum (A>C, A>T, A>G, C>T (nonCpG), CpG>TpG, C>G and C>A) and values represent the proportion of each spectrum made up of each mutation type. Note that when fitting these signatures to sigfit, the CpG>TpG category was excluded and the proportions rescaled to sum to 1 for each signature without that category. (provided here for convenience, and on Dryad)
 
 ###### input files for running Mantel test (not needed if just signature fitting)
-* `pairwise.phylogeneticDistance.raxmltree.txt``: pairwise distances from phylogenetic tree (produced by 3_PhyloSignalOfSpectra_and_Enrichments/ scripts) (provided here for convenience)
+* `pairwise.phylogeneticDistance.raxmltree.txt`: pairwise distances from phylogenetic tree (produced by 3_PhyloSignalOfSpectra_and_Enrichments/ scripts) (provided here for convenience)
 
 * `speciesCodes.txt`: species Latin names for matching with phylogenetic tree (provided here for convenience)
 
