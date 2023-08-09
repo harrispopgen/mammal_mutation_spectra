@@ -3,8 +3,6 @@
 This GitHub repository contains the scripts that were used to generate the analyses and figures in Beichman, Robinson, Lin, Nigenda-Morales, Moreno Estrada, & Harris. 
 "Evolution of the mutation spectrum across a mammalian phylogeny," _Molecular Biology & Evolution (in revision)_
 
-<img src="(https://github.com/harrispopgen/mammal_mutation_spectra/assets/10618123/9d66d27c-c352-479d-86be-3ce1f8ef7bfa)" width="100" height="100">
-
 ### Overview
 The main directories are as follows, and has its own detailed `readme` file:
 
