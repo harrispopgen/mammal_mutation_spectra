@@ -6,7 +6,7 @@ This GitHub repository contains the scripts that were used to generate the analy
 ### Overview
 The main directories are as follows, and has its own detailed `readme` file:
 
-* **`0_dataProcessingandPolarizationScripts/`**: scripts used to assign ancestral allele states for species that did not already have ancestral polarization
+* **`0_dataProcessingandPolarizationScripts/`**: scripts used to assign ancestral allele states 
 * **`1_GenerateMutationSpectraUsingMutyper/`**: scripts used to generate mutation spectra for every species in the dataset
 * **`2_PCA_onSpectra/`**: scripts used to generate principal component analyses (PCA)
 * **`3_PhyloSignalOfSpectra_and_Enrichments/`**: scripts used to carry out analysis of phylogenetic signal of the mutation spectrum, correlation of the spectra with possible confouners, and enrichments/depletions of particular k-mers
