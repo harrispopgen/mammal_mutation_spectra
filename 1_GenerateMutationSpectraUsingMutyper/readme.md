@@ -22,7 +22,7 @@ The **output** of the pipeline for all species is in the `mutyperOutput_7mer.tar
 *! Note that if this pipeline's `step 0` (detailed below) is run, it will draw a random 5 individuals per population/species that may be different from the ones we drew at random for our paper. To replicate our results, see our Table S1 for the particular individuals we drew to replicate our results, or use the subsample_inds_list_files/ directories for each species (on Dryad in the `mutyperOutput_7mer.tar.gz` directory), or instead of re-running it, work directly with the output of this pipeline that is on Dryad (`mutyperOutput_7mer.tar.gz`).*
 
 
-### Config files:
+#### Config files:
 The config files for each species contain the information used to run the mutyper pipeline as a job array on an SGE cluster environment and contains paths to input files and species-specific parameters. If you were to use the config, you would need to update all input paths to be specific to your system possibly modify them to account for how job arrays are set up on your server. The files are commented inside, but in summary:
 * `species`: species label
 * `interval_or_chr_or_all`: specifies whether input genomes are split into intervals (for non-chromosomal assemblies, chromosomes, or have all autosomes combined)
@@ -46,17 +46,17 @@ The config files for each species contain the information used to run the mutype
 * `passOption`: whether you want to only select SNPs that have “PASS” in the info field
 * `strictOption`: whether you want to treat lower-case bases in the ancestral fasta files as * missing data (only applies to human ancestral fasta files)
 
-### Step 0: randomly subsample 5 individuals per species/population
+#### Step 0: randomly subsample 5 individuals per species/population
 The script `step_0_subsampleIndividualsOnlyNeedToRunOnce.sh` randomly draws 5 individuals from each species (or from each population within a species if a species is being subset by population). It will also exclude any low-quality individuals specified for removal. It gets all this information from each species' `config` file. If you don't want to rerun this, you can make sure the subsequent steps of the pipeline can fine the subsample_inds_list_files/ directory for each species inside the output directory to use those already-sampled individuals instead. 
 
-### Step 1: mutyper variants
+#### Step 1: mutyper variants
 The script `step_1_mutyperVariants.SubsettingIndividuals.unified.sh` and its wrapper that submits the job arrays to the cluster `step_1_mutyperVariants.SubsettingIndividuals.unified.WRAPPER.sh` use the info in the `config` files and the results of `step 0` to subset the input vcf file to just the individuals chosen in `step 0`, filter and mask the vcf files depending on species-specific requirements in the `config` file, and run `mutyper variants` to determine the sequence context of every site in the filtered vcf file based on the provided ancestral fasta file. The output is a greatly reduced vcf file, with ancestral state added to the INFO field, ready for use by `mutyper spectra`.
 
 The script also generates a masked ancestral fasta file for use in `mutyper targets`, which converts the regions in the negative mask file to Ns so that they cannot contribute to the spectrum or to the targets (in `step 2`).
 
 Note that `mutyper variants` uses an ancestral fasta file to assign ancestral and derived allele states (so the 'REF' and 'ALT' columns of the vcf in fact correspond to 'ANCESTRAL' and 'DERIVED' mutation states). The software also reverse-complements mutations (so a G -> A is coded as C -> T). This results in the REF and ALT columns and corresponding 0s and 1s in the genotype fields being different from the input vcf at some sites.
 
-### Step 2: mutyper targets
+#### Step 2: mutyper targets
 The purpose of mutyper targets is to count up the genomic targets in the masked ancestral reference file to determine how many of each ancestral motif exists (e.g. the number of AAAATAA 7-mers in the masked ancestral reference genome of the fin whale). This is an important step, because we will eventually need to correct each species' spectra to have the same genomic content based on these counts.
 
 The ancestral fasta file was masked in `step 1` above, so that the regions we excluded from the spectra (exonic regions, repeat masker annotated regions, etc.) were also not included in the target counts.
@@ -66,7 +66,7 @@ The process occurs in two sub-steps:
 * *Step 2b* : summing up the target counts across all genomic intervals to get total masked-genome counts using `step_2b_sumuptargets.R` and its wrapper `step_2b_sumuptargets.WRAPPER.sh`
 
 
-### Step 3: mutyper spectra
+#### Step 3: mutyper spectra
 In this step, the vcfs output by `step 1: mutyper variants` will be converted into tab-delimited mutation spectra, both at the per-individual level (one spectrum for each of the 5 sub-sampled individual per species/population), and at the species/population level (one spectrum for the whole species or population). 
 
 A crucial step in generating the per-individual spectra is the `--randomize` parameter, which randomly assigns a shared polymorphism to a single individual that carries it, so that similarities in spectra are not driven by shared variation within the species or population. When generating population-level spectra, the equivalent is that each polymorphism is only counted toward the spectrum counts once, even if it appears in multiple individuals. The population or species-level spectra are therefore simply the sum of the individual-level spectra.
