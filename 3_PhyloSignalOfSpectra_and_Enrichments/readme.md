@@ -38,7 +38,7 @@ The script is best run in RStudio step by step to see what it's doing along the 
 
 ### Step 2: Enrichments scripts
 * `step_2_onSAGE_FishersExactTest.R` and `step_2_onSAGE_FishersExactTest.Wrapper.sh`: This script took in the files output in step 1 that contain uncorrected and untransformed 3-mer, 5-mer and 7-mer spectra and target information and carried out Fisher's exact test for every k-mer of the 3-mer, 5-mer and 7-mer spectra of every species/population to determine whether the rate of that k-mer is enriched or depleted relative to the background 1-mer rate (e.g. if the rate of ATAAA>ATGAA mutations is higher or lower than the overall A>G mutation rate). Note the script is best run on a remote cluster as it is quite slow and memory intensive. The "wrapper" script was used to submit it to the cluster.
-* `step_2b_RemakeEnrichmentPlots_ifneeded.R`: a script to process the results of the Fisher's exact test described above, generate summary statistics, and make the plots shown in Figure 5 and enrichment-related SI figures.
+* `step_2b_RemakeEnrichmentPlots_ifneeded.R`: a script to process the results of the Fisher's exact test described above, generate summary statistics, and make the plots shown in Figure 5 and enrichment-related SI figures. The results of Fisher's exact test (`step 2a`) that are used as input to step 2b are on Dryad in the `FishersExactTestResults_Enrichments.tar.gz` directory.
 
 ### Additional script: Kmult analysis 
 * `Kmult.only.R`: a script to calculate the Kmult statistic for phylogenetic signal
