@@ -26,6 +26,7 @@ The script is best run in RStudio step by step to see what it's doing along the 
 * `speciesCodes.txt`: file with species full Latin names for matching with phylogenetic trees and shorthand labels for plotting (provided here)
 * `confoundersToPlotPhyloSignal.GenomeN50.etc.updatedthetavals.updatedCoverage`: confounders table. Quantitative variables associated with each species that could be technical or biological confounders (contig and scaffold N50, average coverage, age at first reproduction, etc.) (provided here)
 * `RAxML_bipartitions.result_FIN4_raw_rooted_wBoots_4098mam1out_OK.newick`: RAXML tree from Upham et al. (2019) - this contains all the species from Upham et al. and gets subset to the species in our study during this script. Branch lengths represent expected substitutions (in phylogenetic_trees.tar.gz directory on Dryad)
+  	* Upham, Nathan S., Jacob A. Esselstyn, and Walter Jetz. "Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation." PLoS biology 17.12 (2019): e3000494.
 * `listOfSpecies.ForTimeTree.pluswolves.20220204.nwk`: TimeTree ultrametric phylogenetic tree from TimeTree.org with branch lengths scaled in millions of years (in phylogenetic_trees.tar.gz directory on Dryad)
 * `colors_and_labels.R`: file containing plotting colors and labels (provided here)
 
