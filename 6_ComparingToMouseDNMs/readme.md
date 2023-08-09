@@ -5,13 +5,13 @@ The script `LindsaySpectrumComparison.mice.PlusTargetCorrection.PlusUCLAWolves.H
 
 The alternative wolf polymorphism dataset (generated at UCLA, therefore called ucla_wolves) was from:
 
-* Mooney, Jazlyn A., et al. "Long-term small population size, deleterious variation, and altitude adaptation in the ethiopian wolf, a severely endangered canid." Molecular Biology and Evolution 40.1 (2023): msac277.
+* Mooney, Jazlyn A., et al. "Long-term small population size, deleterious variation, and altitude adaptation in the Ethiopian wolf, a severely endangered canid." Molecular Biology and Evolution 40.1 (2023): msac277.
 
 and the alternative mouse dataset made up of de novo mutations (DNMs) was from:
 
 * Lindsay, Sarah J., et al. "Similarities and differences in patterns of germline mutation between mice and humans." Nature communications 10.1 (2019): 4053
 
-The script is heaviliy commented and details of analysis are in **SI Methods**.
+The script is heavily commented and details of analysis are in **SI Methods**.
 
 
 
