@@ -1,7 +1,7 @@
 
 # Mutation signature fitting:
 ### Overview:
-These scripts are used to fit mutation signatures to the 1-mer and 3-mer mutation spectra using `sigfit` and carry out the Mantel test to compare the phylogenetic signal of reconstructed mutation spectra to empirical spectra. The scripts were used to generate Figures 6 and 7 of the paper, along with mutation-signature related supplemental figures.
+These scripts are used to fit mutation signatures to the 1-mer and 3-mer mutation spectra using [`sigfit`](https://rdrr.io/github/kgori/sigfit/man/) and carry out the Mantel test to compare the phylogenetic signal of reconstructed mutation spectra to empirical spectra. The scripts were used to generate Figures 6 and 7 of the paper, along with mutation-signature related supplemental figures.
 
 #### Step 0: convert spectra to sig-fit style input
 The script `Step_0_generateDataForSigfit.fullSpectra.R` was used to generate input for `sigfit`. It takes in all species/populations 7-mer spectra and collapses them down to 1-mer and 3-mer spectra, carries out human genome content rescaling (no downsampling), and formats the output to be able to used as input for `sigfit`. 
