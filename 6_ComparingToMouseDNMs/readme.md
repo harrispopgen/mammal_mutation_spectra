@@ -20,7 +20,7 @@ The script is heaviliy commented and details of analysis are in **SI Methods**.
 * `all1merSpectra_plusTargets.notyethumanrescaled.ForLindsayAnalysis.containsUCLAwolves.UsedSubsetIndividuals.notprojection.txt`: 1-mer spectra, including ucla_wolves (provided here). Note these spectra have not yet undergone any genomic target rescaling (happens in the script). 
 * `41467_2019_12023_MOESM5_ESM.txt`: Mouse DNM file from Lindsay et al. (2019) (https://www.nature.com/articles/s41467-019-12023-w) (provided here for convenience)
 * `Mus_musculus.summedup.mutyper.targets.SeeLogForFilters.maskALL.7mer.txt`: mouse genomic targets (on Dryad; also provided here for convenience)
-* `colors_and_labels.plusUCLAwolves.R`: a file containing plotting colors and labels 
+* `colors_and_labels.plusUCLAwolves.R`: a file containing plotting colors and labels (provided here)
 
 
 
